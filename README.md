@@ -6,8 +6,9 @@ Here are some of the websites and applications I've built and deployed:
 
 ### 🔹 [MERN Notes App](https://github.com/fidelisnguakaaga20/mern-notes-app)
 - A full-stack notes app using MongoDB, Express.js, React, and Node.js
-- Features CRUD operations, Firebase authentication, and rate limiting with Redis
-- *(Live demo not deployed yet)*
+- Features secure CRUD, Firebase login, Redis rate limiting
+- 🔐 **Live demo (local dev only):** http://localhost:5173/ (works only on my machine via `npm run dev`)
+- 🌐 Deployment coming soon!
 
 ### 🔹 [Shopping Center Website](https://fidelisnguakaaga20.github.io/shopping-center-website/)
 - A responsive static website for a fictional shopping center
