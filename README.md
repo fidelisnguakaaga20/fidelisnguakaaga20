@@ -1,15 +1,18 @@
-Hi, I'm Nguakaaga Mvendaga
+# 👋 Hi, I'm Nguakaaga Mvendaga  
 
 Welcome to my GitHub profile!  
+I’m a web developer passionate about building modern, responsive, and full-stack applications using **HTML, CSS, JavaScript, React, Firebase, and the MERN stack**.  
 
-Here are my latest live projects:
+---
 
-🍔 **Little Taco Shop**  
+## 🚀 Live Projects  
+
+🌮 **Little Taco Shop**  
 A static HTML & CSS project deployed on both Vercel and Render.  
-👉 [Live on Vercel](https://little-taco-shop.vercel.app) | [Backup on Render](https://little-taco-shop.onrender.com)
+👉 [Live on Vercel](https://little-taco-shop.vercel.app) | [Backup on Render](https://little-taco-shop.onrender.com)  
 
-🌐 **Masco Site 2025**  
+🌐 **Masco Site**  
 A modern static website deployed on both Vercel and Render.  
-👉 [Live on Vercel](https://masco-shop-website.vercel.app) | [Backup on Render](https://masco-site-2025.onrender.com)
+👉 [Live on Vercel](https://masco-shop-website.vercel.app) | [Backup on Render](https://masco-site-2025.onrender.com)  
 
-
+---
