@@ -8,7 +8,11 @@ I’m a web developer passionate about building modern, responsive, and full-sta
 ## 🚀 Click to see my Live Projects  
 
 ### ✅ Task Manager (MERN client)
-👉 **Live on Vercel:** https://taskmanager-client-2025.vercel.app/
+Frontend (Vercel): https://taskmanager-client-2025.vercel.app
+
+Frontend (Render): https://taskmanager-client-2025.onrender.com
+
+Backend (Render): https://taskmanager-2025.onrender.com
 
 🌮 **Little Taco Shop**  
 A static HTML & CSS project deployed on both Vercel and Render.  
