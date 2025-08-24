@@ -5,6 +5,11 @@ I’m a web developer passionate about building modern, responsive, and full-sta
 
 ---
 
+Live: https://ngu-top-products-store.vercel.app
+API:  https://ngu-top-products-store.onrender.com
+Repo: https://github.com/fidelisnguakaaga20/NGU-TOP-PRODUCTS-STORE
+
+
 ## 🚀 Click to see my Live Projects  
 
 ### ✅ Task Manager (MERN client)
