@@ -10,7 +10,6 @@ A full-stack MERN e-commerce app with authentication, product management, review
 
 🚀 Live Demo
 - **Frontend (Vercel):** [https://ngu-top-e-commerce.vercel.app](https://ngu-top-e-commerce.vercel.app)
-- **Backend (Render API):** [https://ngu-top-backend.onrender.com](https://ngu-top-backend.onrender.com)
 ## 📂 Repository
 This repository contains both the backend and frontend.
 
