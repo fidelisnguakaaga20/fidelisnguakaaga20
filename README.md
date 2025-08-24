@@ -1,17 +1,33 @@
 👋 Hi, I'm Nguakaaga Mvendaga
 
-Web dev focused on **React** and the **MERN** stack.
-
 🚀 Live Projects (one-click)
 
-NGU-TOP E-COMMERCE 🛒
+# NGU-TOP E-COMMERCE
 
-A full-stack MERN e-commerce app with authentication, product management, reviews, and cart.
+A modern full-stack e-commerce web application built with the MERN stack.
 
-🚀 Live Demo
-- **Frontend (Vercel):** [https://ngu-top-e-commerce.vercel.app](https://ngu-top-e-commerce.vercel.app)
-## 📂 Repository
-This repository contains both the backend and frontend.
+## 🚀 Live Demo
+👉 [https://ngu-top-e-commerce.vercel.app](https://ngu-top-e-commerce.vercel.app)
+
+## 🛠️ Tech Stack
+- MongoDB
+- Express.js
+- React + Vite
+- Node.js
+- Redux Toolkit (state management)
+- TailwindCSS (styling)
+- JWT Authentication
+- Render (Backend hosting)
+- Vercel (Frontend hosting)
+
+## ✨ Features
+- User registration & login with JWT
+- Browse products by category, price, and color
+- Add reviews and ratings
+- Shopping cart with Redux
+- Responsive design
+- Secure API with authentication & authorization
+
 
 - **NGU Products Store (MERN)** — CRUD, Zustand, Chakra UI, Vite  
   👉 **Live:** https://ngu-top-products-store.vercel.app  
