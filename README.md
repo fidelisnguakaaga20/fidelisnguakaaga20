@@ -2,6 +2,15 @@
 
 🚀 Live Projects (one-click)
 
+- **NGU-Top HOTELS (MERN)** — blog/hotel app with auth, posts, comments, admin  
+  👉 **Live:** https://ngu-top-hotels-frontend-qymc.vercel.app  
+  🛠 **API Health:** https://mern-blog-backend-oz8s.onrender.com/api/health  
+  📦 **Code:** [Frontend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-frontend) •
+  [Backend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-backend)
+
+
+
+
 # NGU-TOP E-COMMERCE
 
 A modern full-stack e-commerce web application built with the MERN stack.
