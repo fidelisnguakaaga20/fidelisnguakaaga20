@@ -9,8 +9,6 @@
   [Backend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-backend)
 
 
-
-
 # NGU-TOP E-COMMERCE
 
 A modern full-stack e-commerce web application built with the MERN stack.
