@@ -2,34 +2,6 @@
 
 🚀 Live Projects (one-click)
 
-# NGU-Top HOTELS
-
-A full-stack MERN app with blog posts, comments, and an admin dashboard. Secure auth via JWT in **httpOnly** cookies (CORS + SameSite=None).
-
-## 🚀 Live Demo
-👉 https://ngu-top-hotels-frontend.vercel.app
-
-## 🛠️ Tech Stack
-- React + Vite, TailwindCSS
-- Redux Toolkit + RTK Query
-- Node.js + Express
-- MongoDB + Mongoose
-- JWT auth (httpOnly cookies)
-- Render (API) • Vercel (Web)
-
-## ✨ Features
-- Register / login / logout (secure cookies)
-- Create, update user, delete blogs (admin)
-- Commenting & basic rating
-- Protected admin routes
-- Responsive UI
-
-**API health:** https://ngu-top-hotels-backend.onrender.com/api/health  
-**Repos:** [Frontend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-frontend) • [Backend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-backend)
-
-> ℹ️ Free Render may “cold start” — first API hit can be slow for a few seconds.
-
-
 # NGU-TOP E-COMMERCE
 
 A modern full-stack e-commerce web application built with the MERN stack.
