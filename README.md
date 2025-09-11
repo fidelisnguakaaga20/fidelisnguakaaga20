@@ -41,10 +41,6 @@ A modern full-stack e-commerce web application built with the MERN stack.
   🛠 **API:** https://ngu-top-products-store.onrender.com  
   📦 **Repo:** https://github.com/fidelisnguakaaga20/NGU-TOP-PRODUCTS-STORE
 
-- **Task Manager (MERN client)** — tasks CRUD  
-  👉 **Live (Vercel):** https://taskmanager-client-2025.vercel.app  
-  🔁 **Backup (Render):** https://taskmanager-client-2025.onrender.com
-
 - **Little Taco Shop** — static HTML/CSS  
   👉 **Live (Vercel):** https://little-taco-shop.vercel.app • **Backup (Render):** https://little-taco-shop.onrender.com
 
