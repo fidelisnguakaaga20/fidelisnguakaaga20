@@ -34,9 +34,7 @@ Authentication uses **JWT (httpOnly cookies)**. Messages are persisted in MongoD
 ---
 
 # NGU-TOP E-COMMERCE
-
 A modern full-stack e-commerce web application built with the MERN stack.
-
 ## 🚀 Live Demo
 👉 [https://ngu-top-e-commerce.vercel.app](https://ngu-top-e-commerce.vercel.app)
 
@@ -58,15 +56,17 @@ A modern full-stack e-commerce web application built with the MERN stack.
 - Shopping cart with Redux
 - Responsive design
 - Secure API with authentication & authorization
-
+---
 
 - **NGU Products Store (MERN)** — CRUD, Zustand, Chakra UI, Vite  
   👉 **Live:** https://ngu-top-products-store.vercel.app  
   🛠 **API:** https://ngu-top-products-store.onrender.com  
   📦 **Repo:** https://github.com/fidelisnguakaaga20/NGU-TOP-PRODUCTS-STORE
-
+  ---
+  
 - **Little Taco Shop** — static HTML/CSS  
   👉 **Live (Vercel):** https://little-taco-shop.vercel.app • **Backup (Render):** https://little-taco-shop.onrender.com
+---
 
 - **Masco Site** — static site  
   👉 **Live (Vercel):** https://masco-shop-website.vercel.app • **Backup (Render):** https://masco-site-2025.onrender.com
