@@ -58,6 +58,12 @@ A modern full-stack e-commerce web application built with the MERN stack.
 - Secure API with authentication & authorization
 ---
 
+**MERN Notes — Firebase Auth + Express API**  
+👉 Live: https://notes-backend-eta-one.vercel.app  
+🛠 API: https://notes-backend-1-l40h.onrender.com/api/health  
+📦 Code: https://github.com/fidelisnguakaaga20/notes-backend
+---
+
 - **NGU Products Store (MERN)** — CRUD, Zustand, Chakra UI, Vite  
   👉 **Live:** https://ngu-top-products-store.vercel.app  
   🛠 **API:** https://ngu-top-products-store.onrender.com  
