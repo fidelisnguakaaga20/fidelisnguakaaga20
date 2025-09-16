@@ -74,7 +74,7 @@ PROJECT 4 👇
   👉 **Live:** https://ngu-top-products-store.vercel.app  
   🛠 **API:** https://ngu-top-products-store.onrender.com  
   📦 **Repo:** https://github.com/fidelisnguakaaga20/NGU-TOP-PRODUCTS-STORE
-  ---
+---
 
 PROJECT 3 👇  
 ###Task Manager (MERN)
