@@ -20,19 +20,18 @@
 A full-stack chat application built with **MongoDB, Express, React, Node**, and **Socket.io**.  
 Authentication uses **JWT (httpOnly cookies)**. Messages are persisted in MongoDB, and online status is powered by Socket.io.
 
----
-
 ## 🧱 Tech Stack
 - **Frontend:** React, Vite, Tailwind, DaisyUI, Zustand, Socket.io-client
 - **Backend:** Node.js, Express, Socket.io, Mongoose/MongoDB
 - **Infra:** Vercel (frontend), Render (backend
+---
 
 - **NGU-Top HOTELS (MERN)** — blog/hotel app with auth, posts, comments, admin  
   👉 **Live:** https://ngu-top-hotels-frontend-qymc.vercel.app  
   🛠 **API Health:** https://mern-blog-backend-oz8s.onrender.com/api/health  
   📦 **Code:** [Frontend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-frontend) •
   [Backend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-backend)
-
+---
 
 # NGU-TOP E-COMMERCE
 
