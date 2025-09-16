@@ -2,8 +2,9 @@
 
 🚀 Live Projects (one-click)
 
-# ChatApp — MERN + Socket.io Real-Time Chat
 
+PROJECT 7 👇
+# ChatApp — MERN + Socket.io Real-Time Chat
 
 ## ✨ Features
 - 🔐 Sign up / Login with JWT (cookies)
@@ -26,6 +27,7 @@ Authentication uses **JWT (httpOnly cookies)**. Messages are persisted in MongoD
 - **Infra:** Vercel (frontend), Render (backend
 ---
 
+PROJECT 6 👇
 - **NGU-Top HOTELS (MERN)** — blog/hotel app with auth, posts, comments, admin  
   👉 **Live:** https://ngu-top-hotels-frontend-qymc.vercel.app  
   🛠 **API Health:** https://mern-blog-backend-oz8s.onrender.com/api/health  
@@ -33,6 +35,7 @@ Authentication uses **JWT (httpOnly cookies)**. Messages are persisted in MongoD
   [Backend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-backend)
 ---
 
+PROJECT 5 👇
 # NGU-TOP E-COMMERCE
 A modern full-stack e-commerce web application built with the MERN stack.
 ## 🚀 Live Demo
@@ -58,19 +61,21 @@ A modern full-stack e-commerce web application built with the MERN stack.
 - Secure API with authentication & authorization
 ---
 
+PROJECT 4 👇
 **MERN Notes — Firebase Auth + Express API**  
 👉 Live: https://notes-backend-eta-one.vercel.app  
 🛠 API: https://notes-backend-1-l40h.onrender.com/api/health  
 📦 Code: https://github.com/fidelisnguakaaga20/notes-backend
 ---
 
+PROJECT 3 👇
 - **NGU Products Store (MERN)** — CRUD, Zustand, Chakra UI, Vite  
   👉 **Live:** https://ngu-top-products-store.vercel.app  
   🛠 **API:** https://ngu-top-products-store.onrender.com  
   📦 **Repo:** https://github.com/fidelisnguakaaga20/NGU-TOP-PRODUCTS-STORE
   ---
   
-  
+PROJECT 2 👇
 - **Little Taco Shop** — static HTML/CSS  
   👉 **Live (Vercel):** https://little-taco-shop.vercel.app • **Backup (Render):** https://little-taco-shop.onrender.com
 ---
