@@ -62,6 +62,7 @@ A modern full-stack e-commerce web application built with the MERN stack.
 ---
 
 PROJECT 4 👇
+
 **MERN Notes — Firebase Auth + Express API**  
 👉 Live: https://notes-backend-eta-one.vercel.app  
 🛠 API: https://notes-backend-1-l40h.onrender.com/api/health  
