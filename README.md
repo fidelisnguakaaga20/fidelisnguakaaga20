@@ -15,7 +15,7 @@
 
 
 **Live Frontend:** https://chat-app-mocha-six-38.vercel.app  
-**Live Backend (Render):** https://chat-app-uv0a.onrender.com
+
 
 A full-stack chat application built with **MongoDB, Express, React, Node**, and **Socket.io**.  
 Authentication uses **JWT (httpOnly cookies)**. Messages are persisted in MongoDB, and online status is powered by Socket.io.
