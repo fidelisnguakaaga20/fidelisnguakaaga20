@@ -43,10 +43,6 @@ A modern full-stack e-commerce web application built with the MERN stack.
 ## Live
 - Frontend: https://ngu-top-e-commerce.vercel.app
 - API: https://ngu-top-backend.onrender.com
-
-![Vercel](https://img.shields.io/badge/deploy-Vercel-black?logo=vercel)
-![Render](https://img.shields.io/badge/api-Render-46E3B7?logo=render)
-
 ## 🛠️ Tech Stack
 - MongoDB
 - Express.js
