@@ -2,6 +2,28 @@
 
 🚀 Live Projects (one-click)
 
+PROJECT 9 👇
+
+Meal Plan SaaS — Next.js + Stripe + Clerk
+✨ Features
+🔐 Authentication with Clerk (social & email login)
+💳 Subscription billing with Stripe (Weekly, Monthly, Yearly)
+📊 Subscription management (upgrade, downgrade, cancel)
+🛠 Webhooks to sync Neon DB with Stripe
+📱 Responsive UI, mobile-friendly
+
+👉 Live: https://meal-plan-saas.vercel.app  
+📦 Repo: https://github.com/fidelisnguakaaga20/meal-plan-saas  
+
+🧱 Tech Stack  
+- Next.js 15 (App Router, React Server Components)  
+- Clerk (Auth)  
+- Stripe (Checkout, Webhooks, Billing)  
+- Prisma ORM + Neon (Postgres)  
+- TailwindCSS + React Query  
+- Vercel (hosting & CI/CD)  
+
+---
 
 PROJECT 8 👇
 # ChatApp — MERN + Socket.io Real-Time Chat
