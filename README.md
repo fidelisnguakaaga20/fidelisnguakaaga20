@@ -12,6 +12,8 @@ Meal Plan SaaS — Next.js + Stripe + Clerk
 🛠 Webhooks to sync Neon DB with Stripe
 📱 Responsive UI, mobile-friendly
 
+Use Stripe Test Mode: card:4242 4242 4242 4242, month: 12, year: 34, CVC: 123. or any future date.
+
 👉 Live: https://meal-plan-saas.vercel.app  
 📦 Repo: https://github.com/fidelisnguakaaga20/meal-plan-saas  
 
