@@ -20,8 +20,7 @@ A clean job board platform with SSO authentication and company job posting.
 
 🚀 Deployed with Vercel (CI/CD)
 
-👉 Live: job-board-next15-clean.vercel.app
-
+👉 Live: https://job-board-next15-clean.vercel.app/
 📦 Repo: github.com/fidelisnguakaaga20/job-board-next15-clean
 
 🧱 Tech Stack
