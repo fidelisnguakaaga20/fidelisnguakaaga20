@@ -1,5 +1,30 @@
 👋 Hi, I'm Nguakaaga Mvendaga
 
+🔹 PROJECT 10 — Job Board (Next.js 15 + WorkOS + TypeScript)
+A fully functional job board with SSO login, image upload via AWS S3, and MongoDB-based storage using Mongoose.
+👉 Live: job-board-next15-clean.vercel.app
+📦 Repo: github.com/fidelisnguakaaga20/job-board-next15-clean
+
+✨ Features
+🔐 SSO Login via WorkOS
+👤 Role-based access (Candidate & Employer)
+📄 Job creation, editing, deletion, and filtering (by location/title)
+🌍 Location autocomplete (city/country selector)
+☁️ Image upload to AWS S3
+📁 MongoDB via Mongoose for data modeling
+🎨 Clean, responsive Tailwind UI
+🚀 Seamless Vercel deployment (CI/CD)
+🧱 Tech Stack
+Next.js 15 (App Router, RSC)
+TypeScript
+WorkOS (SSO Authentication)
+AWS S3 (Image Storage)
+MongoDB + Mongoose
+Tailwind CSS
+Vercel (Hosting + CI/CD)
+---
+
+
 🚀 Live Projects (one-click)
 
 PROJECT 9 👇
