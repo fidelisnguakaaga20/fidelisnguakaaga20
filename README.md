@@ -1,8 +1,10 @@
 👋 Hi, I'm Nguakaaga Mvendaga
 
-🔹 PROJECT 10 — Job Board (Next.js 15 + WorkOS + Prisma)
+🚀 Live Projects (one-click)
 
-A clean job board platform with SSO authentication and company job posting.
+🔹 PROJECT 10 — Job Board (Next.js 15 + WorkOS + TypeScript)
+
+A fully functional job board with SSO login, image upload via AWS S3, and MongoDB-based storage using Mongoose.
 
 ✨ Features
 
@@ -10,34 +12,39 @@ A clean job board platform with SSO authentication and company job posting.
 
 👤 Role-based access (Candidate & Employer)
 
-📄 Job posting, editing, deleting, filtering (location/title)
+📄 Job creation, editing, deletion, and filtering (by location/title)
 
-🌍 Location autocomplete (City/Country)
+🌍 Location autocomplete (city/country selector)
 
-🌱 Fully connected Prisma + PostgreSQL database
+☁️ Image upload to AWS S3
 
-🎨 TailwindCSS UI
+📁 MongoDB via Mongoose for data modeling
 
-🚀 Deployed with Vercel (CI/CD)
+🎨 Clean, responsive Tailwind UI
 
-👉 Live: https://job-board-next15-clean.vercel.app/
-📦 Repo: https://github.com/fidelisnguakaaga20/job-board-next15-clean
+🚀 Seamless Vercel deployment (CI/CD)
+
+👉 Live: job-board-next15-clean.vercel.app
+
+📦 Repo: github.com/fidelisnguakaaga20/job-board-next15-clean
+
 
 🧱 Tech Stack
 
 Next.js 15 (App Router, RSC)
 
+TypeScript
+
 WorkOS (SSO Authentication)
 
-Prisma ORM + PostgreSQL (Neon)
+AWS S3 (Image Storage)
+
+MongoDB + Mongoose
 
 Tailwind CSS
 
 Vercel (Hosting + CI/CD)
 ---
-
-
-🚀 Live Projects (one-click)
 
 PROJECT 9 👇
 
