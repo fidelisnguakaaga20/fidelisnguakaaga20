@@ -4,6 +4,10 @@
 
 🔹 PROJECT 10 — Job Board (Next.js 15 + WorkOS + TypeScript)
 
+👉 Live: https://job-board-next15-clean.vercel.app/
+
+📦 Repo: https://github.com/fidelisnguakaaga20/job-board-next15-clean
+
 A fully functional job board with SSO login, image upload via AWS S3, and MongoDB-based storage using Mongoose.
 
 ✨ Features
@@ -23,10 +27,6 @@ A fully functional job board with SSO login, image upload via AWS S3, and MongoD
 🎨 Clean, responsive Tailwind UI
 
 🚀 Seamless Vercel deployment (CI/CD)
-
-👉 Live: job-board-next15-clean.vercel.app
-
-📦 Repo: github.com/fidelisnguakaaga20/job-board-next15-clean
 
 
 🧱 Tech Stack
