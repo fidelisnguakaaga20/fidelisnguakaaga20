@@ -1,167 +1,35 @@
-👋 Hi, I'm Nguakaaga Mvendaga
+# 👋 Hi, I'm Nguakaaga Mvendaga
 
-🚀 Live Projects (one-click)
+🚀 **Full-Stack SaaS Developer** — I build production apps with  
+**Next.js 15 · TypeScript · Stripe · Clerk · Prisma · Vercel**
 
-🔹 PROJECT 10 — Job Board (Next.js 15 + WorkOS + TypeScript)
-
-👉 Live: https://job-board-next15-clean.vercel.app/
-
-📦 Repo: https://github.com/fidelisnguakaaga20/job-board-next15-clean
-
-A fully functional job board with SSO login, image upload via AWS S3, and MongoDB-based storage using Mongoose.
-
-✨ Features
-
-🔐 SSO Login via WorkOS
-
-👤 Role-based access (Candidate & Employer)
-
-📄 Job creation, editing, deletion, and filtering (by location/title)
-
-🌍 Location autocomplete (city/country selector)
-
-☁️ Image upload to AWS S3
-
-📁 MongoDB via Mongoose for data modeling
-
-🎨 Clean, responsive Tailwind UI
-
-🚀 Seamless Vercel deployment (CI/CD)
-
-
-🧱 Tech Stack
-
-Next.js 15 (App Router, RSC)
-
-TypeScript
-
-WorkOS (SSO Authentication)
-
-AWS S3 (Image Storage)
-
-MongoDB + Mongoose
-
-Tailwind CSS
-
-Vercel (Hosting + CI/CD)
----
-
-PROJECT 9 👇
-
-Meal Plan SaaS — Next.js + Stripe + Clerk
-✨ Features
-🔐 Authentication with Clerk (social & email login)
-💳 Subscription billing with Stripe (Weekly, Monthly, Yearly)
-📊 Subscription management (upgrade, downgrade, cancel)
-🛠 Webhooks to sync Neon DB with Stripe
-📱 Responsive UI, mobile-friendly
-
-Use Stripe Test Mode: card:4242 4242 4242 4242, month: 12, year: 34, CVC: 123. or any future date.
-
-👉 Live: https://meal-plan-saas.vercel.app  
-📦 Repo: https://github.com/fidelisnguakaaga20/meal-plan-saas  
-
-🧱 Tech Stack  
-- Next.js 15 (App Router, React Server Components)  
-- Clerk (Auth)  
-- Stripe (Checkout, Webhooks, Billing)  
-- Prisma ORM + Neon (Postgres)  
-- TailwindCSS + React Query  
-- Vercel (hosting & CI/CD)  
+I integrate authentication, billing, and clean APIs into cloud-deployed products used by real users.
 
 ---
 
-PROJECT 8 👇
-# ChatApp — MERN + Socket.io Real-Time Chat
+## 🔹 Featured Projects (Live First)
+| Project | Stack | Live |
+|---|---|---|
+| **Meal Plan AI SaaS** | Next.js 15 · Stripe · Clerk · Prisma · Neon · OpenAI API | https://meal-plan-saas.vercel.app |
+| **Job Board** | Next.js 15 · WorkOS SSO · AWS S3 · MongoDB (Mongoose) | https://job-board-next15-clean.vercel.app |
+| **Chat App (Realtime)** | MERN · Socket.io · JWT · MongoDB | https://chat-app-mocha-six-38.vercel.app |
+| **NGU-Top E-Commerce** | MERN · Redux Toolkit · JWT | https://ngu-top-e-commerce.vercel.app |
 
-## ✨ Features
-- 🔐 Sign up / Login with JWT (cookies)
-- 👥 Conversations list with presence (online users)
-- 💬 Real-time messaging (Socket.io)
-- 🗂️ Messages persisted in MongoDB
-- 🔔 Incoming message sound + bubble shake animation
-- 🎨 Tailwind + DaisyUI UI
-
-
-**Live Frontend:** https://chat-app-mocha-six-38.vercel.app  
-
-
-A full-stack chat application built with **MongoDB, Express, React, Node**, and **Socket.io**.  
-Authentication uses **JWT (httpOnly cookies)**. Messages are persisted in MongoDB, and online status is powered by Socket.io.
-
-## 🧱 Tech Stack
-- **Frontend:** React, Vite, Tailwind, DaisyUI, Zustand, Socket.io-client
-- **Backend:** Node.js, Express, Socket.io, Mongoose/MongoDB
-- **Infra:** Vercel (frontend), Render (backend
 ---
 
-PROJECT 7 👇
-# NGU-TOP E-COMMERCE
-A modern full-stack e-commerce web application built with the MERN stack.
+## 🧰 Tech Stack
+**Frontend:** Next.js 15 (App Router, RSC), React, TypeScript, Tailwind  
+**Backend:** Node.js, Express.js, Prisma, REST APIs, Webhooks  
+**Data:** Neon Postgres, MongoDB (Mongoose), Prisma ORM  
+**Auth & Billing:** Clerk, WorkOS (SSO), JWT, Stripe (Checkout, Billing, Webhooks)  
+**Infra:** Vercel, Render, AWS S3, Git, CI/CD
 
-## 🚀 Live Demo
-## Live
-- Frontend: https://ngu-top-e-commerce.vercel.app
-- API: https://ngu-top-backend.onrender.com
-## 🛠️ Tech Stack
-- MongoDB
-- Express.js
-- React + Vite
-- Node.js
-- Redux Toolkit (state management)
-- TailwindCSS (styling)
-- JWT Authentication
-- Render (Backend hosting)
-- Vercel (Frontend hosting)
-
-## ✨ Features
-- User registration & login with JWT
-- Browse products by category, price, and color
-- Add reviews and ratings
-- Shopping cart with Redux
-- Responsive design
-- Secure API with authentication & authorization
 ---
 
-PROJECT 6 👇
-- **NGU-Top HOTELS (MERN)** — blog/hotel app with auth, posts, comments, admin  
-  👉 **Live:** https://ngu-top-hotels-frontend-qymc.vercel.app  
-  🛠 **API Health:** https://mern-blog-backend-oz8s.onrender.com/api/health  
-  📦 **Code:** [Frontend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-frontend) •
-  [Backend](https://github.com/fidelisnguakaaga20/ngu-top-hotels-backend)
----
+## 🎯 What I Do
+- Ship **SaaS features end-to-end** (auth, payments, dashboards)
+- Build **clean APIs** and secure backends
+- Deploy **fast and reliably** (Vercel/Render, CI/CD)
 
-PROJECT 5 👇
-
-**MERN Notes — Firebase Auth + Express API**  
-👉 Live: https://notes-backend-eta-one.vercel.app  
-🛠 API: https://notes-backend-1-l40h.onrender.com/api/health  
-📦 Code: https://github.com/fidelisnguakaaga20/notes-backend
----
-
-PROJECT 4 👇
-- **NGU Products Store (MERN)** — CRUD, Zustand, Chakra UI, Vite  
-  👉 **Live:** https://ngu-top-products-store.vercel.app  
-  🛠 **API:** https://ngu-top-products-store.onrender.com  
-  📦 **Repo:** https://github.com/fidelisnguakaaga20/NGU-TOP-PRODUCTS-STORE
----
-
-PROJECT 3 👇  
-###Task Manager (MERN)
-- **Live:** https://task-manager-client-amber.vercel.app  
-- **API Health:** https://task-manager-server-ofwc.onrender.com/api/health  
-- **Code:** [Client](https://github.com/fidelisnguakaaga20/Task-Manager-Client) • [Server](https://github.com/fidelisnguakaaga20/Task-Manager-Server)
----
-
-PROJECT 2 👇
-- **Little Taco Shop** — static HTML/CSS  
-  👉 **Live (Vercel):** https://little-taco-shop.vercel.app • **Backup (Render):** https://little-taco-shop.onrender.com
----
-
-PROJECT 1
-      👇
-- **Masco Site** — static site  
-  👉 **Live (Vercel):** https://masco-shop-website.vercel.app • **Backup (Render):** https://masco-site-2025.onrender.com
----
-
-> ℹ️ Free Render may “cold start” — first API hit can be slow for a few seconds.
+📫 **Email:** fidelisnguakaaga20@gmail.com  
+🔗 **LinkedIn:** https://www.linkedin.com/in/nguakaaga-mvendaga
