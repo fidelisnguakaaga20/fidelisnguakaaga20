@@ -10,7 +10,7 @@ I integrate authentication, payments, and APIs into cloud-deployed products used
 | Project | Stack | Live Demo |
 |----------|--------|-----------|
 | **Meal Plan SaaS** | Next.js 15 · Stripe · Clerk · Prisma · Neon DB | [meal-plan-saas.vercel.app](https://meal-plan-saas.vercel.app) |
-| **Job Board** | Next.js 15 · WorkOS SSO · AWS S3 · MongoDB | [job-board-next15-clean.vercel.app](https://job-board-next15-clean.vercel.app) |
+| **Job Board** | Next.js 15 · WorkOS SSO · AWS S3 · MongoDB | [job-board-next15-clean.vercel.app](https://job-board-next15-clean.vercel.app/) |
 | **Chat App (Realtime)** | MERN · Socket.io · JWT · MongoDB | [chat-app-mocha-six-38.vercel.app](https://chat-app-mocha-six-38.vercel.app) |
 | **NGU-TOP E-Commerce** | MERN · Redux Toolkit · JWT | [ngu-top-e-commerce.vercel.app](https://ngu-top-e-commerce.vercel.app) |
 
