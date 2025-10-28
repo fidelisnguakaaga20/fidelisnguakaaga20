@@ -35,7 +35,6 @@ A production-ready AI workspace for teams. Each user gets an organization (tenan
 **Stack:**  
 Next.js 16 (App Router) · TypeScript · Clerk Auth · Stripe Billing · Prisma ORM · Neon Postgres · OpenAI API · Server Actions / Route Handlers · Vercel
 
-**Why this matters to employers:**  
 This is not a toy UI. It shows:
 - Multi-tenant architecture
 - Real billing lifecycle
