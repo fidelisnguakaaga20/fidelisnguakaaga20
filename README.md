@@ -1,47 +1,55 @@
 # 👋 Hi, I'm Nguakaaga Mvendaga
 
-🚀 Full-Stack SaaS Engineer  
-I build production-grade web apps with authentication, subscriptions, usage limits, and secure dashboards — not just UI demos.
+## Full-Stack SaaS Engineer
 
-I work mainly with:
-- **Next.js / React / TypeScript**
-- **Prisma + Postgres (Neon) / MongoDB**
-- **Clerk / JWT auth**
-- **Stripe subscriptions & webhooks**
-- **Vercel / Render for deployment**
+I ship production apps with auth, subscriptions, usage limits, secure dashboards, and webhooks—not toy UIs.
+
+**Tooling:** Next.js 16 · React · TypeScript · Prisma · Postgres (Neon) · MongoDB · Clerk · JWT · Stripe (Checkout + Webhooks) · Vercel/Render
 
 ---
 
-## 🔹 Featured Projects (Live SaaS)
+## 🔹 Featured Project — Multi-Tenant AI SaaS (Live)
 
-### 1. Multi-Tenant AI SaaS  
-**Status:** Live on Vercel (Production)  
 **Live URL:** https://multi-tenant-ai-saas.vercel.app  
 **Code:** https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas
 
-**What it is:**
-A production-ready AI workspace for teams. Each user gets an organization (tenant) with:
-- Auth & onboarding using Clerk
-- Workspace / organization auto-created on first sign-in
-- Role-based access (OWNER / ADMIN / MEMBER)
-- Invite teammates to your org
-- Usage metering per org (free plan = 10 AI generations / month)
-- Paid upgrade to PRO with Stripe Checkout
-- Stripe webhook promotes org to PRO → unlocks unlimited usage
-- Billing status and usage shown inside dashboard
-- Legal pages (Terms / Privacy) exposed in UI for compliance
-- Hosted on Vercel, Postgres on Neon, AI calls via OpenAI API
+**What it does**
 
-**Stack:**  
-Next.js 16 (App Router) · TypeScript · Clerk Auth · Stripe Billing · Prisma ORM · Neon Postgres · OpenAI API · Server Actions / Route Handlers · Vercel
+* Org (tenant) auto-provision on first sign-in
+* Roles: OWNER / ADMIN / MEMBER; invite teammates
+* Usage metering per org (FREE = 10 generations/month)
+* Upgrade to **PRO** via Stripe Checkout → webhook promotes org to PRO (unlimited)
+* Plan badge + usage in dashboard; legal pages (Terms/Privacy) visible
+* AI demo route with safe fallback when OpenAI quota is missing
 
-This is not a toy UI. It shows:
-- Multi-tenant architecture
-- Real billing lifecycle
-- Secure server-side logic with role checks
-- Webhooks in production
-- CI/CD to Vercel
-- Handling rate limiting and usage quotas
+**Production notes**
+
+* Edge auth via `proxy.ts` (Clerk) protecting `/dashboard(.*)`
+* Per-org rate limiting; idempotent, retry-safe webhooks
+* Single-source layout (no duplicate navbar/footer); mobile shows **Sign out**
+* OpenAI 429 handled gracefully with user messaging
+* CI/CD: push to `main` → Vercel deploy; tagged releases (e.g., `v0.2.0`)
+
+**Stack**
+Next.js 16 (App Router) · TypeScript · Clerk · Stripe · Prisma · Neon Postgres · OpenAI API · Route Handlers · Server Actions · Vercel
+
+**How to try**
+
+1. Sign in → org auto-created
+2. **AI Demo** → generate text (uses quota)
+3. **Pricing** → upgrade; webhook flips plan to **PRO**; dashboard updates
+
+**Security & Ops**
+
+* Server-side role checks for org resources
+* `.env.local` kept out of repo; structured server logging
+
+**Roadmap**
+
+* Audit log UI, billing history, per-org API keys
+* E2E tests (Playwright) + error tracking (Sentry)
+
+
 
 ---
 
