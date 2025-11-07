@@ -8,7 +8,7 @@ I ship production apps with auth, subscriptions, usage limits, secure dashboards
 
 ---
 
-## 🔹 Featured Project — Multi-Tenant AI SaaS (Live)
+## 🔹1 Featured Project — Multi-Tenant AI SaaS (Live)
 
 **Live URL:** https://multi-tenant-ai-saas.vercel.app  
 **Code:** https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas
@@ -53,7 +53,7 @@ Next.js 16 (App Router) · TypeScript · Clerk · Stripe · Prisma · Neon Postg
 
 ---
 
-Stripe Revenue Copilot
+### 2. Stripe Revenue Copilot
 Live URL: https://stripe-revenue-copilot.vercel.app
 Code: https://github.com/fidelisnguakaaga20/stripe-revenue-copilot
 Stack: Next.js 16 · Stripe · Prisma · Neon Postgres · Vercel
@@ -69,7 +69,7 @@ What it shows:
 - Secure dashboard with per-org plan badge
 
 
-### 2. Meal Plan SaaS  
+### 3. Meal Plan SaaS  
 **Live URL:** https://meal-plan-saas.vercel.app  
 **Stack:** Next.js 15 · Stripe · Clerk · Prisma · Neon DB  
 **Summary:**  
@@ -82,7 +82,7 @@ Subscription-based meal planning app. Includes auth, protected dashboard, dynami
 
 ---
 
-### 3. Job Board Platform  
+### 4. Job Board Platform  
 **Live URL:** https://job-board-next15-clean.vercel.app  
 **Stack:** Next.js 15 · WorkOS SSO · AWS S3 · MongoDB  
 **Summary:**  
@@ -95,7 +95,7 @@ Job marketplace with company login (WorkOS SSO), job posting, and media upload t
 
 ---
 
-### 4. Realtime Chat App  
+### 5. Realtime Chat App  
 **Live URL:** https://chat-app-mocha-six-38.vercel.app  
 **Stack:** MERN · Socket.io · JWT · MongoDB  
 **Summary:**  
@@ -108,7 +108,7 @@ Full realtime messaging with authentication, live presence, and protected API ro
 
 ---
 
-### 5. NGU-TOP E-Commerce  
+### 6. NGU-TOP E-Commerce  
 **Live URL:** https://ngu-top-e-commerce.vercel.app  
 **Stack:** MERN · Redux Toolkit · JWT  
 **Summary:**  
