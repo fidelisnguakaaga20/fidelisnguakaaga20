@@ -9,7 +9,7 @@ Built by **Nguakaaga Mvendaga — Full-Stack SaaS Engineer (Next.js · TypeScrip
 
 ## 🚀 Live Demo
 
-- **Storefront (public):** https://single-brand-store.vercel.app
+- **Live demo: https://single-brand-store.vercel.app
 
 - **Admin login page:** https://single-brand-store.vercel.app/login  
 
