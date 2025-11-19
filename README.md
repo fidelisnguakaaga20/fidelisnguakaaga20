@@ -1,180 +1,160 @@
-# 👋 Hi, I'm Nguakaaga Mvendaga
+````md
+# Nguakaaga Mvendaga — Full-Stack SaaS Engineer
 
-## Full-Stack SaaS Engineer
-
-I ship production apps with auth, subscriptions, usage limits, secure dashboards, and webhooks—not toy UIs.
-
-**Tooling:** Next.js 16 · React · TypeScript · Prisma · Postgres (Neon) · MongoDB · Clerk · JWT · Stripe (Checkout + Webhooks) · Vercel/Render
+I build **production-ready SaaS and e-commerce apps** with real auth, billing, dashboards, and webhooks — not demo UIs.
 
 ---
 
-## 🔹1 Featured Project — Multi-Tenant AI SaaS (Live)
+## 🛍 Project: Single Brand Store
 
-**Live URL:** https://multi-tenant-ai-saas.vercel.app  
-**Code:** https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas
+**High-impact single-brand fashion e-commerce demo** built with:
 
-**What it does**
+- **Next.js 16 (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **Prisma + PostgreSQL (Neon)**
+- **Stripe Checkout (TEST mode)**
 
-* Org (tenant) auto-provision on first sign-in
-* Roles: OWNER / ADMIN / MEMBER; invite teammates
-* Usage metering per org (FREE = 10 generations/month)
-* Upgrade to **PRO** via Stripe Checkout → webhook promotes org to PRO (unlimited)
-* Plan badge + usage in dashboard; legal pages (Terms/Privacy) visible
-* AI demo route with safe fallback when OpenAI quota is missing
+Designed to feel like a **real small–medium brand store**, including:
 
-**Production notes**
-
-* Edge auth via `proxy.ts` (Clerk) protecting `/dashboard(.*)`
-* Per-org rate limiting; idempotent, retry-safe webhooks
-* Single-source layout (no duplicate navbar/footer); mobile shows **Sign out**
-* OpenAI 429 handled gracefully with user messaging
-* CI/CD: push to `main` → Vercel deploy; tagged releases (e.g., `v0.2.0`)
-
-**Stack**
-Next.js 16 (App Router) · TypeScript · Clerk · Stripe · Prisma · Neon Postgres · OpenAI API · Route Handlers · Server Actions · Vercel
-
-**How to try**
-
-1. Sign in → org auto-created
-2. **AI Demo** → generate text (uses quota)
-3. **Pricing** → upgrade; webhook flips plan to **PRO**; dashboard updates
-
-**Security & Ops**
-
-* Server-side role checks for org resources
-* `.env.local` kept out of repo; structured server logging
-
-**Roadmap**
-
-* Audit log UI, billing history, per-org API keys
-* E2E tests (Playwright) + error tracking (Sentry)
-
-
+- Real products & variants  
+- Collections (New Arrivals, Best Sellers, Men, Women, Accessories, Limited Editions)  
+- Cart & checkout  
+- Simple custom auth with `ADMIN` role  
+- Admin dashboard for managing catalog and orders  
 
 ---
 
-### 2. Stripe Revenue Copilot
-Live URL: https://stripe-revenue-copilot.vercel.app
-Code: https://github.com/fidelisnguakaaga20/stripe-revenue-copilot
-Stack: Next.js 16 · Stripe · Prisma · Neon Postgres · Vercel
+## 🌐 Live Demo
 
-Summary:
-Subscription analytics & admin toolkit. Real Stripe Checkout upgrades, webhook-driven DB sync, and recon jobs—built for production billing workflows.
+- **Storefront (public):** https://single-brand-store.vercel.app  
+- **Admin login:** https://single-brand-store.vercel.app/login  
 
-What it shows:
-- Checkout → webhook promotes org plan (FREE → PRO)
-- Invoice & subscription upserts (idempotent) in Postgres
-- Dev-only “sync-checkout” endpoint for local testing
-- Cron reconcile to keep Stripe ↔ DB parity
-- Secure dashboard with per-org plan badge
+> 🔐 **Demo admin credentials (TEST only)**  
+> Email: `admin@example.com`  
+> Password: `Admin123!`  
 
-
-### 3. Meal Plan SaaS  
-**Live URL:** https://meal-plan-saas.vercel.app  
-**Stack:** Next.js 15 · Stripe · Clerk · Prisma · Neon DB  
-**Summary:**  
-Subscription-based meal planning app. Includes auth, protected dashboard, dynamic content per user, and paid Pro tier using Stripe Checkout.
-
-**What it shows:**  
-- Paid SaaS flow with upgrade wall  
-- Persistent data in Postgres via Prisma  
-- Deployed & usable publicly
+> 💳 **Payments are in TEST mode — no real charges.**
 
 ---
 
-### 4. Job Board Platform  
-**Live URL:** https://job-board-next15-clean.vercel.app  
-**Stack:** Next.js 15 · WorkOS SSO · AWS S3 · MongoDB  
-**Summary:**  
-Job marketplace with company login (WorkOS SSO), job posting, and media upload to S3.
+## 🧩 Tech Stack
 
-**What it shows:**  
-- Enterprise auth (SSO)  
-- File storage in S3  
-- Admin-style dashboard for companies
+- **Framework:** Next.js 16 (App Router) + React  
+- **Language:** TypeScript  
+- **Styling:** Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Database:** PostgreSQL (Neon) via Prisma ORM  
+- **Auth:** Custom JWT-based auth (`CUSTOMER`, `ADMIN`)  
+- **Payments:** Stripe Checkout (TEST mode)  
+- **Hosting:** Vercel (frontend + API routes), Neon (database)  
+
+---
+---
+
+## 👨‍💻 About Me
+
+I’m a **Full-Stack SaaS Engineer** focused on **Next.js + TypeScript** products with **real billing, auth, and dashboards**.
+Most of my work is **production-style SaaS**: multi-tenant, role-based, Stripe-powered, and deployed to Vercel/Render.
+
+**Tooling I use regularly:**
+Next.js 16 · React · TypeScript · Prisma · Postgres (Neon) · MongoDB · Clerk · JWT · Stripe (Checkout + Webhooks) · Vercel/Render
 
 ---
 
-### 5. Realtime Chat App  
-**Live URL:** https://chat-app-mocha-six-38.vercel.app  
-**Stack:** MERN · Socket.io · JWT · MongoDB  
-**Summary:**  
-Full realtime messaging with authentication, live presence, and protected API routes.
+## 📂 Selected Projects (Live)
 
-**What it shows:**  
-- WebSockets / Socket.io  
-- Token-based auth with refresh flow  
-- Realtime UI (typing indicators / seen states, etc.)
+### 1️⃣ Multi-Tenant AI SaaS (Featured)
+
+* **Live:** [https://multi-tenant-ai-saas.vercel.app](https://multi-tenant-ai-saas.vercel.app)
+* **Code:** [https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas](https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas)
+
+Multi-tenant AI SaaS with org auto-provisioning, roles (OWNER/ADMIN/MEMBER), usage metering, Stripe upgrades, and webhooks that flip orgs from FREE → PRO.
 
 ---
 
-### 6. NGU-TOP E-Commerce  
-**Live URL:** https://ngu-top-e-commerce.vercel.app  
-**Stack:** MERN · Redux Toolkit · JWT  
-**Summary:**  
-Full e-commerce stack with product catalog, cart state, checkout flow, and admin management.
+### 2️⃣ Stripe Revenue Copilot
 
-**What it shows:**  
-- State management at scale (Redux Toolkit)  
-- Authenticated cart / orders  
-- Admin vs customer flows
+* **Live:** [https://stripe-revenue-copilot.vercel.app](https://stripe-revenue-copilot.vercel.app)
+* **Code:** [https://github.com/fidelisnguakaaga20/stripe-revenue-copilot](https://github.com/fidelisnguakaaga20/stripe-revenue-copilot)
+
+Stripe-powered revenue analytics & admin toolkit with subscription upgrades, webhook-driven DB sync, and recon jobs.
 
 ---
 
-## 🧠 Core Skills
+### 3️⃣ Meal Plan SaaS
+
+* **Live:** [https://meal-plan-saas.vercel.app](https://meal-plan-saas.vercel.app)
+
+Subscription meal-planning app with auth, paid Pro tier via Stripe, and persistent user data in Postgres.
+
+---
+
+### 4️⃣ Job Board Platform
+
+* **Live:** [https://job-board-next15-clean.vercel.app](https://job-board-next15-clean.vercel.app)
+
+Job marketplace with WorkOS SSO, company dashboards, and media uploads to AWS S3.
+
+---
+
+### 5️⃣ Realtime Chat App
+
+* **Live:** [https://chat-app-mocha-six-38.vercel.app](https://chat-app-mocha-six-38.vercel.app)
+
+MERN + Socket.io chat app with realtime messaging, presence, and JWT auth.
+
+---
+
+### 6️⃣ NGU-TOP E-Commerce
+
+* **Live:** [https://ngu-top-e-commerce.vercel.app](https://ngu-top-e-commerce.vercel.app)
+
+MERN-based e-commerce with catalog, cart, checkout, and admin vs customer flows using Redux Toolkit.
+
+---
+
+## 🧠 Core Skills (Summary)
 
 **Frontend**
-- Next.js (App Router, RSC)
-- React + TypeScript
-- Tailwind / utility-first UI
+
+* Next.js (App Router, RSC)
+* React + TypeScript
+* Tailwind / utility-first UI
 
 **Backend**
-- Next.js API Routes & Route Handlers
-- Node.js / Express.js REST APIs
-- Role-based access control
-- Webhooks (Stripe / custom)
-- Rate limiting & usage metering logic
 
-**Auth**
-- Clerk (passwordless / social)
-- WorkOS SSO (enterprise login)
-- JWT sessions
+* Next.js API Routes & Route Handlers
+* Node.js / Express.js REST APIs
+* Role-based access control
+* Webhooks (Stripe / custom)
+* Rate limiting & usage metering
 
-**Billing**
-- Stripe Checkout sessions
-- Subscription plans (FREE vs PRO)
-- Post-payment webhooks that update DB state
-- Enforcing paywall rules in app logic
+**Auth & Billing**
 
-**Data**
-- Prisma ORM
-- Postgres (Neon)
-- MongoDB / Mongoose
-- Usage tracking per tenant / per month
+* Clerk (passwordless / social)
+* WorkOS SSO
+* JWT sessions
+* Stripe Checkout & subscriptions
+* Webhooks that update DB state and enforce paywalls
 
-**Infra / DevOps**
-- Vercel (full-stack Next.js)
-- Render / AWS S3
-- CI/CD with GitHub → Vercel
-- Environment variable management
-- Production debugging / logs
+**Data & Infra**
 
----
-
-## 🏆 What I actually deliver
-
-- SaaS with real billing, not fake buttons  
-- Multi-tenant architecture (orgs, roles, invite teammates)  
-- Usage limits & paywalls that connect to Stripe plans  
-- Secure dashboards with server-side data fetching  
-- Realtime features where needed (chat, presence, activity)  
-- Clean handoff docs so teams can maintain it
+* Prisma ORM
+* Postgres (Neon)
+* MongoDB / Mongoose
+* Vercel, Render, AWS S3
+* CI/CD from GitHub → Vercel
+* Environment variable management & production debugging
 
 ---
 
 ## 📫 Contact
 
-- Email: fidelisnguakaaga20@gmail.com  
-- Phone: 07031128081 / 07011507142  
-- LinkedIn: https://www.linkedin.com/in/nguakaaga-mvendaga  
-- GitHub: https://github.com/fidelisnguakaaga20
+* **Email:** [fidelisnguakaaga20@gmail.com](mailto:fidelisnguakaaga20@gmail.com)
+* **Phone:** 07031128081 / 07011507142
+* **LinkedIn:** [https://www.linkedin.com/in/nguakaaga-mvendaga](https://www.linkedin.com/in/nguakaaga-mvendaga)
+* **GitHub:** [https://github.com/fidelisnguakaaga20](https://github.com/fidelisnguakaaga20)
+
+```
+```
