@@ -1,175 +1,165 @@
-````markdown
-# Single Brand Store
+# FLEX FOAM — B2B E-Commerce SaaS (Featured)
 
-High-impact **single-brand fashion e-commerce** demo built with **Next.js 16 (App Router), TypeScript, Tailwind, Prisma, PostgreSQL (Neon), and Stripe**.
+Modern **B2B wholesale ordering platform** for a foam manufacturing company.
 
 Built by **Nguakaaga Mvendaga — Full-Stack SaaS Engineer (Next.js · TypeScript · Stripe · Prisma)**
 
 ---
 
-## Live Demo
+## 🔴 Live Demo
 
-**Storefront (public):**  
-[single-brand-store.vercel.app](https://single-brand-store.vercel.app)
+**Customer / Products:**  
+https://flex-foam-b2b.vercel.app/products  
 
-**Admin login:**  
-[single-brand-store.vercel.app/login](https://single-brand-store.vercel.app/login)
+**Admin Dashboard:**  
+https://flex-foam-b2b.vercel.app/portal  
 
-
-> 🔐 **Demo admin credentials (TEST only)**  
-> Email: `admin@example.com`  
-> Password: `Admin123!`  
+> NOTE: TEST environment — no real charges.
 
 ---
 
 ## 🧱 Tech Stack
 
-- **Framework:** Next.js 16 (App Router) + React  
+- **Framework:** Next.js 15/16 (App Router)  
 - **Language:** TypeScript  
 - **Styling:** Tailwind CSS  
-- **Animations:** Framer Motion  
 - **Database:** PostgreSQL (Neon) via Prisma ORM  
-- **Auth:** Custom JWT-based auth (`CUSTOMER` & `ADMIN` roles)  
-- **Payments:** Stripe Checkout (TEST mode, no real charges)  
-- **Hosting:** Vercel (app + API routes), Neon (database)  
+- **Payments:** Paystack (test mode)  
+- **Features:** Enterprise SKUs, B2B pricing, Admin portal, secure API routes  
+- **Hosting:** Vercel + Neon Postgres  
 
 ---
 
 ## ✨ Core Features
 
-### Public Storefront
+### Customer-facing
+- Browse all foam SKUs  
+- Add items to cart  
+- View/approve order  
+- Checkout with Paystack (TEST mode)
 
-- Hero section with **“Shop now”** and collection CTAs  
-- Home highlights:
-  - **New Arrivals**
-  - **Best Sellers**
-  - **Limited Editions**
-- Product grid with:
-  - Price, badges (New / Best Seller / Limited)
-  - Responsive Tailwind layout + Framer Motion animations
-- Product detail page:
-  - Variants (size, color, price, stock)
-  - Add to cart
-
-### Catalog & Filters
-
-- `/shop` page with:
-  - Full catalog grid
-  - Search by name, description, or tagline
-  - Filter by **collection**, **price range**, and **tags**
-  - Sort by newest, price (low → high / high → low), best sellers
-- `/collections/[slug]` pages for:
-  - New Arrivals, Best Sellers, Men, Women, Accessories, Limited Editions
-  - Collection hero banners (AI-generated images) + filtered products
-
-### Cart & Checkout (TEST Mode)
-
-- Global cart using React context  
-- Add/remove items, update quantity, view totals  
-- Stripe Checkout using TEST keys  
-- **No real payments** — demo flow only  
-
-### Auth & Admin
-
-- Email/password login with JWT  
-- Roles:
-  - `CUSTOMER` – browse, add to cart, start checkout
-  - `ADMIN` – access `/admin` dashboard
-- Admin dashboard includes:
-  - Products list & basic catalog management
-  - Promotions list
-  - Orders list & order details
-
-> ⚠️ Admin changes (price, stock, promotions, etc.) affect what **all users** see — same behavior as a real store back office.
+### Admin Portal
+- Manage all SKUs  
+- Edit / Delete products  
+- View orders  
+- See revenue KPIs  
+- Securely protected routes  
 
 ---
 
-## 🛠 Local Development
+# 🔥 Tier 1 SaaS Projects (Top Ranked)
 
-> The app is live on Vercel, but you can also run it locally.
-
-```bash
-git clone https://github.com/fidelisnguakaaga20/single-brand-store.git
-cd single-brand-store
-npm install
-npm run dev
-````
-
-Then open `http://localhost:3000`.
+These are your **top professional SaaS projects**, in order of strength.
 
 ---
 
-## 🧪 Related Production-Grade SaaS Projects
+## 1️⃣ FLEX FOAM — B2B E-Commerce SaaS (Featured)
+**Live:** https://flex-foam-b2b.vercel.app  
+**Code:** https://github.com/fidelisnguakaaga20/flex-foam-b2b  
 
-For recruiters: these are other live projects that show my focus on **SaaS, billing, and real-world dashboards**.
-
-### 1. Multi-Tenant AI SaaS (Featured)
-
-* **Live:** [https://multi-tenant-ai-saas.vercel.app](https://multi-tenant-ai-saas.vercel.app)
-* **Code:** [https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas](https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas)
-* **Highlights:** Multi-tenant orgs, roles (OWNER / ADMIN / MEMBER), usage metering, Stripe upgrades (FREE → PRO), webhooks, and secure dashboard.
+Enterprise-level B2B system for foam manufacturers.  
+Strongest real-world project with pricing, admin, checkout, and dashboards.
 
 ---
 
-### 2. Stripe Revenue Copilot
+## 2️⃣ Multi-Tenant AI SaaS Platform
+**Live:** https://multi-tenant-ai-saas.vercel.app  
+**Code:** https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas  
 
-* **Live:** [https://stripe-revenue-copilot.vercel.app](https://stripe-revenue-copilot.vercel.app)
-* **Code:** [https://github.com/fidelisnguakaaga20/stripe-revenue-copilot](https://github.com/fidelisnguakaaga20/stripe-revenue-copilot)
-* **Highlights:** Subscription analytics, Stripe Checkout upgrades, webhook-driven DB sync, reconcile jobs, and per-org billing dashboard.
+A **multi-tenant**, Stripe-enabled SaaS with:
 
----
+- Orgs & roles (OWNER / ADMIN / MEMBER)  
+- Usage metering  
+- Stripe subscriptions (FREE → PRO)  
+- Webhooks syncing billing → database  
+- Secure dashboards  
 
-### 3. Meal Plan SaaS
-
-* **Live:** [https://meal-plan-saas.vercel.app](https://meal-plan-saas.vercel.app)
-* **Stack:** Next.js 15 · Stripe · Clerk · Prisma · Neon DB
-* **Highlights:** Subscription-based meal planning with auth, protected dashboard, and Pro tier via Stripe Checkout.
-
----
-
-### 4. Job Board Platform
-
-* **Live:** [https://job-board-next15-clean.vercel.app](https://job-board-next15-clean.vercel.app)
-* **Stack:** Next.js 15 · WorkOS SSO · AWS S3 · MongoDB
-* **Highlights:** Enterprise SSO login, job posting, S3 media uploads, and company admin dashboard.
+This shows **true SaaS architecture**.
 
 ---
 
-### 5. Realtime Chat App
+## 3️⃣ Stripe Revenue Copilot
+**Live:** https://stripe-revenue-copilot.vercel.app  
+**Code:** https://github.com/fidelisnguakaaga20/stripe-revenue-copilot  
 
-* **Live:** [https://chat-app-mocha-six-38.vercel.app](https://chat-app-mocha-six-38.vercel.app)
-* **Stack:** MERN · Socket.io · JWT · MongoDB
-* **Highlights:** Realtime messaging, presence, protected APIs, and token-based auth.
+A subscription analytics platform with:
 
----
+- Stripe Checkout upgrades  
+- Webhook-driven database sync  
+- Real-time revenue dashboards  
+- Reconciliation jobs  
 
-### 6. NGU-TOP E-Commerce
-
-* **Live:** [https://ngu-top-e-commerce.vercel.app](https://ngu-top-e-commerce.vercel.app)
-* **Stack:** MERN · Redux Toolkit · JWT
-* **Highlights:** Full e-commerce flow with catalog, cart, checkout, and admin/customer separation.
-
----
-
-## 👤 About Me
-
-**Full-Stack SaaS Engineer · Next.js · TypeScript · Stripe · Prisma**
-
-I build production-ready SaaS and e-commerce apps with:
-
-* Real billing (Stripe Checkout + webhooks)
-* Role-based dashboards
-* Usage limits & paywalls connected to plans
-* Secure server-side data fetching and clean codebases
+Great for **Stripe mastery**.
 
 ---
 
-## 📫 Contact
+# 🔥 Tier 2 Production-Grade SaaS Apps  
+(Still strong but slightly below Tier 1)
 
-* **Email:** [fidelisnguakaaga20@gmail.com](mailto:fidelisnguakaaga20@gmail.com)
-* **Phone:** 07031128081 / 07011507142
-* **LinkedIn:** [https://www.linkedin.com/in/nguakaaga-mvendaga](https://www.linkedin.com/in/nguakaaga-mvendaga)
-* **GitHub:** [https://github.com/fidelisnguakaaga20](https://github.com/fidelisnguakaaga20)
+---
 
-```
-```
+## 4️⃣ Meal Plan SaaS
+**Live:** https://meal-plan-saas.vercel.app  
+**Code:** https://github.com/fidelisnguakaaga20/meal-plan-saas  
+
+Subscription-based meal-planning SaaS powered by:
+
+- Next.js 15  
+- Clerk Authentication  
+- Stripe Pro tier  
+- Protected dashboard  
+
+---
+
+## 5️⃣ Job Board Platform
+**Live:** https://job-board-next15-clean.vercel.app  
+**Code:** https://github.com/fidelisnguakaaga20/job-board-next15-clean  
+
+- WorkOS SSO  
+- AWS S3 uploads  
+- Company dashboards  
+- Job posting + applications  
+
+Shows your **enterprise integrations**.
+
+---
+
+# 🔥 Tier 3 — High-Polish E-Commerce
+
+---
+
+## 6️⃣ Single Brand Store
+**Live:** https://single-brand-store.vercel.app  
+**Code:** https://github.com/fidelisnguakaaga20/single-brand-store  
+
+Next.js 16 fashion storefront with:
+
+- Full catalog  
+- Stripe checkout  
+- Admin management  
+- Beautiful UI + animations  
+
+Excellent portfolio visuals.
+
+---
+
+# 👤 About Me
+
+**Full-Stack SaaS Engineer — Next.js · TypeScript · Stripe · Prisma**
+
+I build production-ready SaaS with:
+
+- Real billing systems (Stripe / Paystack)  
+- Role-based dashboards  
+- Multi-tenant architectures  
+- Usage limits & subscription paywalls  
+- Secure server-side fetching and clean API design  
+
+---
+
+# 📫 Contact
+
+- Email: **fidelisnguakaaga20@gmail.com**  
+- Phone: **07031128081 / 07011507142**  
+- LinkedIn: https://www.linkedin.com/in/nguakaaga-mvendaga  
+- GitHub: https://github.com/fidelisnguakaaga20
