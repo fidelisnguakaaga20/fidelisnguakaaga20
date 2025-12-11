@@ -1,64 +1,152 @@
-# FLEX FOAM — B2B E-Commerce SaaS (Featured)
-
-Modern **B2B wholesale ordering platform** for a foam manufacturing company.
-
-Built by **Nguakaaga Mvendaga — Full-Stack SaaS Engineer (Next.js · TypeScript · Stripe · Prisma)**
 
 ---
 
-## 🔴 Live Demo
+# 🌟 **Nguakaaga Mvendaga**
 
-**Customer / Products:**  
-https://flex-foam-b2b.vercel.app/products  
+### **LLM Engineer — RAG ▪ Agents ▪ Vector DB ▪ FastAPI ▪ Next.js**
 
-**Admin Dashboard:**  
-https://flex-foam-b2b.vercel.app/portal  
-
-> NOTE: TEST environment — no real charges.
+Building applied AI systems for real business use cases.
 
 ---
 
-## 🧱 Tech Stack
+## 🚀 **About Me**
 
-- **Framework:** Next.js 15/16 (App Router)  
-- **Language:** TypeScript  
-- **Styling:** Tailwind CSS  
-- **Database:** PostgreSQL (Neon) via Prisma ORM  
-- **Payments:** Paystack (test mode)  
-- **Features:** Enterprise SKUs, B2B pricing, Admin portal, secure API routes  
-- **Hosting:** Vercel + Neon Postgres  
+I am an **LLM Engineer** specializing in **RAG pipelines, embeddings, vector search, AI agents**, and production-ready FastAPI backends.
+Before LLM engineering, I built **enterprise SaaS systems** with multi-tenant roles, Stripe billing, dashboards, and secure architectures.
 
----
+This gives me a rare advantage:
+**I build AI systems that are actually production-ready.**
 
-## ✨ Core Features
-
-### Customer-facing
-- Browse all foam SKUs  
-- Add items to cart  
-- View/approve order  
-- Checkout with Paystack (TEST mode)
-
-### Admin Portal
-- Manage all SKUs  
-- Edit / Delete products  
-- View orders  
-- See revenue KPIs  
-- Securely protected routes  
+**Focus areas:**
+✔ Local inference
+✔ RAG pipelines
+✔ Vector databases
+✔ AI agents
+✔ End-to-end AI applications (FastAPI → Next.js)
 
 ---
 
-# 🔥 Tier 1 SaaS Projects (Top Ranked)
+# 🧠 **Core Skills**
 
-These are your **top professional SaaS projects**, in order of strength.
+### **LLM Engineering**
+
+* RAG (Retrieval-Augmented Generation)
+* Embeddings (MiniLM, E5)
+* Vector DBs: FAISS, Chroma
+* Chunking & loaders
+* Semantic search
+* LangChain / Agents / Tools
+* Prompt engineering
+
+### **Backend (Python)**
+
+* FastAPI
+* Restful APIs
+* Local model serving
+* Auth, middleware, async workflows
+* PDF/text ingestion
+
+### **Frontend**
+
+* Next.js 15/16
+* TypeScript
+* Tailwind CSS
+* Chat UIs, forms, uploads
+* FastAPI frontend integration
+
+### **Infrastructure & Tools**
+
+* Git & GitHub
+* Thunder Client / Postman
+* Vercel
+* Neon Postgres
+* Stripe & Paystack
+* Linux & Bash basics
 
 ---
+
+# 🧩 **Featured AI Projects (LLM Engineer)**
+
+My strongest applied LLM engineering work.
+
+---
+
+## 🔥 **1. Customer Support RAG AI (Featured)**
+
+**FastAPI · MiniLM · FAISS · Flan-T5 · Next.js**
+
+* PDF → text → chunk → embed → vector search
+* FAISS semantic retrieval
+* T5 generation
+* Clean Next.js chat interface
+
+🔗 Code: [https://github.com/fidelisnguakaaga20/customer-support-rag-bot](https://github.com/fidelisnguakaaga20/customer-support-rag-bot)
+
+## 🎥 Demo (Loom + YouTube)
+
+
+- 🎥 Loom: https://www.loom.com/share/c75f498b4e834b7ea15ec52e9e56890d
+- 🎥 YouTube (Unlisted): https://youtu.be/AH-ZbUXaoGY
+
+---
+
+## 📝 **2. Resume RAG Chatbot**
+
+**FastAPI · MiniLM · FAISS · Next.js**
+
+* Full RAG pipeline
+* FAISS vector DB
+* Frontend chat UI
+
+🔗 Code: [https://github.com/fidelisnguakaaga20/resume-rag-chatbot](https://github.com/fidelisnguakaaga20/resume-rag-chatbot)
+
+## 🎥 Demo (Loom + YouTube)
+
+- 🎥 Loom: [Watch on Loom](https://www.loom.com/share/f895833d582d443c8362bd38258364fe?from_recorder=1&focus_title=1)
+- 🎥 YouTube (Unlisted): [Watch on YouTube](https://youtu.be/O3s2rzXd53M)
+
+---
+
+## ✉️ **3. Email Reply Assistant**
+
+**FastAPI · Flan-T5 · Embedding similarity · Next.js**
+
+
+🔗 Code: [https://github.com/fidelisnguakaaga20/email-reply-assistant](https://github.com/fidelisnguakaaga20/email-reply-assistant)
+
+🎥 Project Demos
+Loom Demo (Full Walkthrough)
+
+🔗 https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
+
+YouTube Demo (Unlisted)
+
+🔗 https://youtu.be/JeUxBp2Aers
+
+---
+
+## 🔍 **4. Embedding Search Engine**
+
+**Python · SentenceTransformers · Chroma**
+
+🔗 Code: [https://github.com/fidelisnguakaaga20/embedding-search-engine](https://github.com/fidelisnguakaaga20/embedding-search-engine)
+
+---
+
+# 🧱 **Production-Grade SaaS Engineering (Supportive Experience)**
+
+These projects demonstrate your strong backend, architecture, and system-design skills.
+
+---
+
+# 🏭 **FLEX FOAM — B2B E-Commerce SaaS (Featured)**
+
+Enterprise wholesale ordering system.
 
 ## 1️⃣ FLEX FOAM — B2B E-Commerce SaaS (Featured)
 **Live:** https://flex-foam-b2b.vercel.app  
 **Code:** https://github.com/fidelisnguakaaga20/flex-foam-b2b  
-
-Enterprise-level B2B system for foam manufacturers.  
-Strongest real-world project with pricing, admin, checkout, and dashboards.
+Admin portal, secure API routes Hosting: Vercel + Neon Postgres ✨ Core Features Customer-facing Browse all foam SKUs Add items to cart View/approve order Checkout with Paystack (TEST mode) Admin Portal Manage all SKUs Edit / Delete products View orders See revenue KPIs Securely protected routes
 
 ---
 
