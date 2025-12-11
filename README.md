@@ -112,7 +112,7 @@ My strongest applied LLM engineering work.
 **FastAPI · Flan-T5 · Embedding similarity · Next.js**
 
 
-🔗 Code: [https://github.com/fidelisnguakaaga20/email-reply-assistant](https://github.com/fidelisnguakaaga20/email-reply-assistant)
+🔗 Code: [https://github.com/fidelisnguakaaga20/email-reply-assistant](https://github.com/fidelisnguakaaga20/email-reply-assistant-llm)
 
 🎥 Project Demos
 Loom Demo (Full Walkthrough)
