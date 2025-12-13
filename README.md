@@ -112,7 +112,7 @@ Simple frontend workflow
 Fully local inference
 
 🔗 Code:
-https://github.com/fidelisnguakaaga20/email-reply-assistant
+https://github.com/fidelisnguakaaga20/email-reply-assistant-llm
 
 🎥 Demo (Full Walkthrough)
 Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
