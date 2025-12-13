@@ -71,71 +71,120 @@ My strongest applied LLM engineering work.
 
 ---
 
-## 🔥 **1. Customer Support RAG AI (Featured)**
+🔥 5. AI Content Generator (NEW — Featured)
 
-**FastAPI · MiniLM · FAISS · Flan-T5 · Next.js**
+FastAPI · HuggingFace Flan-T5 · Next.js · TypeScript
 
-* PDF → text → chunk → embed → vector search
-* FAISS semantic retrieval
-* T5 generation
-* Clean Next.js chat interface
+Local AI content generator supporting blogs, tweets, LinkedIn posts, and emails — no paid APIs.
 
-🔗 Code: [https://github.com/fidelisnguakaaga20/customer-support-rag-bot](https://github.com/fidelisnguakaaga20/customer-support-rag-bot)
+Key highlights
 
-## 🎥 Demo (Loom + YouTube)
+Instruction-tuned text generation (Flan-T5)
+
+FastAPI backend with /generate endpoint
+
+Responsive Next.js UI with copy support
+
+Runs 100% locally (demo via Loom/YouTube)
+
+🔗 Code:
+https://github.com/fidelisnguakaaga20/llm-ai-content-generator
+
+🎥 Demos
+Loom: https://www.loom.com/share/9ed56437a87d49f0bf145f257681e18c
+
+YouTube (Unlisted): https://youtu.be/umITe-IPbZw
+
+🔥 4. Email Reply Assistant
+
+FastAPI · Flan-T5 · Embedding Similarity · Next.js
+
+AI assistant that generates professional email replies from short context.
+
+Key highlights
+
+Instruction-based generation
+
+Tone-aware responses
+
+Simple frontend workflow
+
+Fully local inference
+
+🔗 Code:
+https://github.com/fidelisnguakaaga20/email-reply-assistant
+
+🎥 Demo (Full Walkthrough)
+Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
+
+YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
 
-- 🎥 Loom: https://www.loom.com/share/c75f498b4e834b7ea15ec52e9e56890d
-- 🎥 YouTube (Unlisted): https://youtu.be/AH-ZbUXaoGY
+📝 3. Customer Support RAG AI (Featured)
 
----
+FastAPI · MiniLM · FAISS · Flan-T5 · Next.js
 
-## 📝 **2. Resume RAG Chatbot**
+End-to-end Retrieval-Augmented Generation system for customer support.
 
-**FastAPI · MiniLM · FAISS · Next.js**
+Key highlights
 
-* Full RAG pipeline
-* FAISS vector DB
-* Frontend chat UI
+PDF → chunk → embed → retrieve → generate pipeline
 
-🔗 Code: [https://github.com/fidelisnguakaaga20/resume-rag-chatbot](https://github.com/fidelisnguakaaga20/resume-rag-chatbot)
+FAISS vector search
 
-## 🎥 Demo (Loom + YouTube)
+Instruction-based answer generation
 
-- 🎥 Loom: [Watch on Loom](https://www.loom.com/share/f895833d582d443c8362bd38258364fe?from_recorder=1&focus_title=1)
-- 🎥 YouTube (Unlisted): [Watch on YouTube](https://youtu.be/O3s2rzXd53M)
+Clean chat UI
 
----
+🔗 Code:
+https://github.com/fidelisnguakaaga20/customer-support-rag-bot
 
-## ✉️ **3. Email Reply Assistant**
+🎥 Demos
+Loom: https://www.loom.com/share/c75f498b4e834b7ea15ec52e9e56890d
 
-**FastAPI · Flan-T5 · Embedding similarity · Next.js**
+YouTube (Unlisted): https://youtu.be/AH-ZbUXaoGY
 
 
-🔗 Code: [https://github.com/fidelisnguakaaga20/email-reply-assistant](https://github.com/fidelisnguakaaga20/email-reply-assistant-llm)
+📝 2. Resume RAG Chatbot
 
-🎥 Project Demos
-Loom Demo (Full Walkthrough)
+FastAPI · MiniLM · FAISS · Next.js
 
-🔗 https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
+Ask questions about a resume using a full RAG pipeline.
 
-YouTube Demo (Unlisted)
+Key highlights
 
-🔗 https://youtu.be/JeUxBp2Aers
+Resume ingestion + chunking
 
----
+Semantic search with FAISS
 
-## 🔍 **4. Embedding Search Engine**
+Context-aware responses
 
-**Python · SentenceTransformers · Chroma**
+Frontend chat interface
 
-🔗 Code: [https://github.com/fidelisnguakaaga20/embedding-search-engine](https://github.com/fidelisnguakaaga20/embedding-search-engine)
+🔗 Code:
+https://github.com/fidelisnguakaaga20/resume-rag-chatbot
 
----
+🎥 Demos
+Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
 
-# 🧱 **Production-Grade SaaS Engineering (Supportive Experience)**
+YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
-These projects demonstrate your strong backend, architecture, and system-design skills.
+🔍 1. Embedding Search Engine
+
+Python · SentenceTransformers · Chroma
+
+Semantic search engine using vector embeddings.
+
+Key highlights
+
+Sentence-level embeddings
+
+Vector similarity search
+
+Lightweight, fast, local-first
+
+🔗 Code:
+https://github.com/fidelisnguakaaga20/embedding-search-engine
 
 ---
 
