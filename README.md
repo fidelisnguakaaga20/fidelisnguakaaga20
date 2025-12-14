@@ -71,6 +71,29 @@ My strongest applied LLM engineering work.
 
 ---
 
+🔥 6. SQL Query Agent (NEW — Featured)
+FastAPI · SQLite · HuggingFace Flan-T5 · Guardrails
+
+Natural language → SQL → validate → run → explain. Built with strong safety checks and deterministic fallbacks.
+
+Highlights
+
+NL → SQL (SELECT-only) with schema introspection
+
+SQL safety validation + hallucination defense
+
+Deterministic fallback when LLM fails
+
+Plain-English result explanation
+
+Fully local, reproducible
+
+🔗 Code: https://github.com/fidelisnguakaaga20/sql-query-agent
+
+🎥 Loom: https://www.loom.com/share/eff2ae14cee8497c97219ed4c1cc2ae6
+
+🎥 YouTube (Unlisted): https://youtu.be/2FL6BFIvaJ8
+
 🔥 5. AI Content Generator (NEW — Featured)
 
 FastAPI · HuggingFace Flan-T5 · Next.js · TypeScript
