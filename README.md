@@ -11,57 +11,80 @@ Building applied AI systems for real business use cases.
 
 ## 🚀 **About Me**
 
-I am an **LLM Engineer** specializing in **RAG pipelines, embeddings, vector search, AI agents**, and production-ready FastAPI backends.
-Before LLM engineering, I built **enterprise SaaS systems** with multi-tenant roles, Stripe billing, dashboards, and secure architectures.
+I am an LLM Engineer specializing in RAG pipelines, embeddings, vector search, AI agents, and production-ready FastAPI backends.
 
-This gives me a rare advantage:
-**I build AI systems that are actually production-ready.**
+Before moving into LLM engineering, I built enterprise SaaS systems with multi-tenant architectures, role-based access, Stripe billing, dashboards, and secure backend design.
 
-**Focus areas:**
-✔ Local inference
-✔ RAG pipelines
-✔ Vector databases
-✔ AI agents
+This background gives me a rare advantage: I don’t just build AI demos — I build AI systems that are designed to work in production.
+
+Focus areas
+
+✔ Local inference (open-source models, no paid APIs)
+
+✔ RAG pipelines (ingest → embed → retrieve → generate)
+
+✔ Vector databases & semantic search
+
+✔ AI agents and tool-based workflows
+
 ✔ End-to-end AI applications (FastAPI → Next.js)
 
----
+🧠 Core Skills
+LLM Engineering
 
-# 🧠 **Core Skills**
+Retrieval-Augmented Generation (RAG)
 
-### **LLM Engineering**
+Embeddings (MiniLM, E5)
 
-* RAG (Retrieval-Augmented Generation)
-* Embeddings (MiniLM, E5)
-* Vector DBs: FAISS, Chroma
-* Chunking & loaders
-* Semantic search
-* LangChain / Agents / Tools
-* Prompt engineering
+Vector databases: FAISS, Chroma
 
-### **Backend (Python)**
+Chunking strategies & document loaders
 
-* FastAPI
-* Restful APIs
-* Local model serving
-* Auth, middleware, async workflows
-* PDF/text ingestion
+Semantic search pipelines
 
-### **Frontend**
+LangChain, agents, tools
 
-* Next.js 15/16
-* TypeScript
-* Tailwind CSS
-* Chat UIs, forms, uploads
-* FastAPI frontend integration
+Prompt engineering & output control
 
-### **Infrastructure & Tools**
+Backend (Python)
 
-* Git & GitHub
-* Thunder Client / Postman
-* Vercel
-* Neon Postgres
-* Stripe & Paystack
-* Linux & Bash basics
+FastAPI (production-style APIs)
+
+RESTful API design
+
+Local model serving
+
+Auth, middleware, async workflows
+
+PDF & text ingestion pipelines
+
+SQL safety & validation layers
+
+Frontend
+
+Next.js 15 / 16
+
+TypeScript
+
+Tailwind CSS
+
+Chat UIs, forms, uploads
+
+FastAPI ↔ frontend integration
+
+Infrastructure & Tools
+
+Git & GitHub
+
+Thunder Client / Postman
+
+Vercel
+
+Neon Postgres
+
+Stripe & Paystack
+
+Linux & Bash basics
 
 ---
 
