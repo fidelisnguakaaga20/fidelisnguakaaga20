@@ -1,142 +1,23 @@
+🌟 Nguakaaga Mvendaga  
+**LLM Engineer — RAG · Agents · Tool Calling · Local LLMs · FastAPI**
+
+I build **production-style LLM systems** that integrate retrieval, tools, databases, and local inference — not prompt demos.
 
 ---
 
-# 🌟 **Nguakaaga Mvendaga**
-
-### **LLM Engineer — RAG ▪ Agents ▪ Vector DB ▪ FastAPI ▪ Next.js**
-
-Building applied AI systems for real business use cases.
-
----
-
-## 🚀 **About Me**
-
-I am an LLM Engineer specializing in RAG pipelines, embeddings, vector search, AI agents, and production-ready FastAPI backends.
-
-Before moving into LLM engineering, I built enterprise SaaS systems with multi-tenant architectures, role-based access, Stripe billing, dashboards, and secure backend design.
-
-This background gives me a rare advantage: I don’t just build AI demos — I build AI systems that are designed to work in production.
-
-Focus areas
-
-✔ Local inference (open-source models, no paid APIs)
-
-✔ RAG pipelines (ingest → embed → retrieve → generate)
-
-✔ Vector databases & semantic search
-
-✔ AI agents and tool-based workflows
-
-✔ End-to-end AI applications (FastAPI → Next.js)
-
-🧠 Core Skills
-LLM Engineering
-
-Retrieval-Augmented Generation (RAG)
-
-Embeddings (MiniLM, E5)
-
-Vector databases: FAISS, Chroma
-
-Chunking strategies & document loaders
-
-Semantic search pipelines
-
-LangChain, agents, tools
-
-Prompt engineering & output control
-
-Backend (Python)
-
-FastAPI (production-style APIs)
-
-RESTful API design
-
-Local model serving
-
-Auth, middleware, async workflows
-
-PDF & text ingestion pipelines
-
-SQL safety & validation layers
-
-Frontend
-
-Next.js 15 / 16
-
-TypeScript
-
-Tailwind CSS
-
-Chat UIs, forms, uploads
-
-FastAPI ↔ frontend integration
-
-Infrastructure & Tools
-
-Git & GitHub
-
-Thunder Client / Postman
-
-Vercel
-
-Neon Postgres
-
-Stripe & Paystack
-
-Linux & Bash basics
-
----
-
-# 🧩 **Featured AI Projects (LLM Engineer)**
-
-My strongest applied LLM engineering work.
-
----
-
-7. ⭐ NEW — Featured Project: Multi-Tool AI Agent (Flagship LLM Work)
-
-Multi-Tool Agent — RAG ▪ SQL ▪ Web ▪ Calculator ▪ Memory
-FastAPI · Local LLMs · Vector DB · SQLite · Evaluation Harness
-
-A production-style, local-first AI agent that plans multi-step actions, selects the right tools, and returns grounded answers with citations, traces, and evaluation metrics — no paid APIs.
-
-Why this matters:
-This project demonstrates real LLM engineering, not demos:
-
-Tool routing & planning
-
-RAG with citations
-
-SQL safety enforcement
-
-Observability & evaluation
-
-Deterministic fallbacks
-
-Recruiter-ready architecture
-
-Key Capabilities
-
-🧠 Agent planning with tool selection (no chain-of-thought leakage)
-
-📄 RAG over documents with chunking, embeddings, citations
-
-🗄️ Read-only SQL agent (SELECT-only, guarded, validated)
-
-🌐 Web search tool (live or cached demo mode)
-
-🧮 Calculator tool (safe eval)
-
-💾 Conversation memory & preferences
-
-📊 Evaluation harness with accuracy + latency metrics
-
-Example Prompt
-
-“Using my documents, confirm the policy, calculate the cost for 12 users, and summarize the latest industry trend.”
-
-→ Agent performs RAG → Calculator → Web and returns a single grounded answer with full trace.
+## 🚀 Featured LLM Project (Flagship)
+
+1. ### 🔥 Multi-Tool AI Agent (RAG + SQL + Tools)
+**FastAPI · LangChain · Vector DB · SQL · Local LLMs**
+
+An orchestrated AI agent capable of **tool selection, RAG retrieval, and safe SQL execution**.
+
+**What this demonstrates**
+- Agent routing & tool calling
+- NL → SQL → validate → run → explain
+- RAG over external documents
+- Production-style API design
+- Deterministic fallbacks & guardrails
 
 Links
 
@@ -147,7 +28,7 @@ Links
 🎥 YouTube (Unlisted): https://youtu.be/R5fbKYg5QjA
 
 
-🔥 6. SQL Query Agent (NEW — Featured)
+🔥 2. SQL Query Agent (NEW — Featured)
 FastAPI · SQLite · HuggingFace Flan-T5 · Guardrails
 
 Natural language → SQL → validate → run → explain. Built with strong safety checks and deterministic fallbacks.
@@ -170,7 +51,7 @@ Fully local, reproducible
 
 🎥 YouTube (Unlisted): https://youtu.be/2FL6BFIvaJ8
 
-🔥 5. AI Content Generator (NEW — Featured)
+🔥 3. AI Content Generator (NEW — Featured)
 
 FastAPI · HuggingFace Flan-T5 · Next.js · TypeScript
 
@@ -219,7 +100,7 @@ Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
 YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
 
-📝 3. Customer Support RAG AI (Featured)
+📝 5. Customer Support RAG AI (Featured)
 
 FastAPI · MiniLM · FAISS · Flan-T5 · Next.js
 
@@ -244,7 +125,7 @@ Loom: https://www.loom.com/share/c75f498b4e834b7ea15ec52e9e56890d
 YouTube (Unlisted): https://youtu.be/AH-ZbUXaoGY
 
 
-📝 2. Resume RAG Chatbot
+📝 6. Resume RAG Chatbot
 
 FastAPI · MiniLM · FAISS · Next.js
 
@@ -268,7 +149,7 @@ Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
 
 YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
-🔍 1. Embedding Search Engine
+🔍 7. Embedding Search Engine
 
 Python · SentenceTransformers · Chroma
 
@@ -287,109 +168,31 @@ https://github.com/fidelisnguakaaga20/embedding-search-engine
 
 ---
 
-# 🏭 **FLEX FOAM — B2B E-Commerce SaaS (Featured)**
+Before specializing in LLM engineering, I built multiple **production SaaS platforms** involving:
 
-Enterprise wholesale ordering system.
-
-## 1️⃣ FLEX FOAM — B2B E-Commerce SaaS (Featured)
-**Live:** https://flex-foam-b2b.vercel.app  
-**Code:** https://github.com/fidelisnguakaaga20/flex-foam-b2b  
-Admin portal, secure API routes Hosting: Vercel + Neon Postgres ✨ Core Features Customer-facing Browse all foam SKUs Add items to cart View/approve order Checkout with Paystack (TEST mode) Admin Portal Manage all SKUs Edit / Delete products View orders See revenue KPIs Securely protected routes
-
+- Multi-tenant architectures
+- Role-based access control
+- Stripe & Paystack billing
+- Secure dashboards & APIs
 ---
-
-## 2️⃣ Multi-Tenant AI SaaS Platform
+Selected examples:
+- FLEX FOAM — B2B E-Commerce SaaS
+- ## 1️⃣ FLEX FOAM — B2B E-Commerce SaaS (Featured)
+**Live:** https://flex-foam-b2b.vercel.app  
+**Code:** https://github.com/fidelisnguakaaga20/flex-foam-b2b 
+---
+ ## 2️⃣ Multi-Tenant AI SaaS Platform
 **Live:** https://multi-tenant-ai-saas.vercel.app  
 **Code:** https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas  
-
-A **multi-tenant**, Stripe-enabled SaaS with:
-
-- Orgs & roles (OWNER / ADMIN / MEMBER)  
-- Usage metering  
-- Stripe subscriptions (FREE → PRO)  
-- Webhooks syncing billing → database  
-- Secure dashboards  
-
-This shows **true SaaS architecture**.
-
 ---
-
 ## 3️⃣ Stripe Revenue Copilot
 **Live:** https://stripe-revenue-copilot.vercel.app  
-**Code:** https://github.com/fidelisnguakaaga20/stripe-revenue-copilot  
-
-A subscription analytics platform with:
-
-- Stripe Checkout upgrades  
-- Webhook-driven database sync  
-- Real-time revenue dashboards  
-- Reconciliation jobs  
-
-Great for **Stripe mastery**.
-
+**Code:** https://github.com/fidelisnguakaaga20/stripe-revenue-copilot 
 ---
 
-# 🔥 Tier 2 Production-Grade SaaS Apps  
-(Still strong but slightly below Tier 1)
-
----
-
-## 4️⃣ Meal Plan SaaS
-**Live:** https://meal-plan-saas.vercel.app  
-**Code:** https://github.com/fidelisnguakaaga20/meal-plan-saas  
-
-Subscription-based meal-planning SaaS powered by:
-
-- Next.js 15  
-- Clerk Authentication  
-- Stripe Pro tier  
-- Protected dashboard  
-
----
-
-## 5️⃣ Job Board Platform
-**Live:** https://job-board-next15-clean.vercel.app  
-**Code:** https://github.com/fidelisnguakaaga20/job-board-next15-clean  
-
-- WorkOS SSO  
-- AWS S3 uploads  
-- Company dashboards  
-- Job posting + applications  
-
-Shows your **enterprise integrations**.
-
----
-
-# 🔥 Tier 3 — High-Polish E-Commerce
-
----
-
-## 6️⃣ Single Brand Store
+## 4 Single Brand Store
 **Live:** https://single-brand-store.vercel.app  
 **Code:** https://github.com/fidelisnguakaaga20/single-brand-store  
-
-Next.js 16 fashion storefront with:
-
-- Full catalog  
-- Stripe checkout  
-- Admin management  
-- Beautiful UI + animations  
-
-Excellent portfolio visuals.
-
----
-
-# 👤 About Me
-
-**Full-Stack SaaS Engineer — Next.js · TypeScript · Stripe · Prisma**
-
-I build production-ready SaaS with:
-
-- Real billing systems (Stripe / Paystack)  
-- Role-based dashboards  
-- Multi-tenant architectures  
-- Usage limits & subscription paywalls  
-- Secure server-side fetching and clean API design  
 
 ---
 
