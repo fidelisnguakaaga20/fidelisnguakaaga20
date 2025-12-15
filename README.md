@@ -94,6 +94,59 @@ My strongest applied LLM engineering work.
 
 ---
 
+7. ⭐ NEW — Featured Project: Multi-Tool AI Agent (Flagship LLM Work)
+
+Multi-Tool Agent — RAG ▪ SQL ▪ Web ▪ Calculator ▪ Memory
+FastAPI · Local LLMs · Vector DB · SQLite · Evaluation Harness
+
+A production-style, local-first AI agent that plans multi-step actions, selects the right tools, and returns grounded answers with citations, traces, and evaluation metrics — no paid APIs.
+
+Why this matters:
+This project demonstrates real LLM engineering, not demos:
+
+Tool routing & planning
+
+RAG with citations
+
+SQL safety enforcement
+
+Observability & evaluation
+
+Deterministic fallbacks
+
+Recruiter-ready architecture
+
+Key Capabilities
+
+🧠 Agent planning with tool selection (no chain-of-thought leakage)
+
+📄 RAG over documents with chunking, embeddings, citations
+
+🗄️ Read-only SQL agent (SELECT-only, guarded, validated)
+
+🌐 Web search tool (live or cached demo mode)
+
+🧮 Calculator tool (safe eval)
+
+💾 Conversation memory & preferences
+
+📊 Evaluation harness with accuracy + latency metrics
+
+Example Prompt
+
+“Using my documents, confirm the policy, calculate the cost for 12 users, and summarize the latest industry trend.”
+
+→ Agent performs RAG → Calculator → Web and returns a single grounded answer with full trace.
+
+Links
+
+🔗 Code: https://github.com/fidelisnguakaaga20/project-7-multi-tool-agent
+
+🎥 Loom Demo: https://www.loom.com/share/8c3cc7fedb7b463c9b60a12fec87bde0
+
+🎥 YouTube (Unlisted): https://youtu.be/R5fbKYg5QjA
+
+
 🔥 6. SQL Query Agent (NEW — Featured)
 FastAPI · SQLite · HuggingFace Flan-T5 · Guardrails
 
