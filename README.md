@@ -100,7 +100,7 @@ Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
 YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
 
-📝 5. Customer Support RAG AI (Featured)
+🔥 5. Customer Support RAG AI (Featured)
 
 FastAPI · MiniLM · FAISS · Flan-T5 · Next.js
 
@@ -125,7 +125,7 @@ Loom: https://www.loom.com/share/c75f498b4e834b7ea15ec52e9e56890d
 YouTube (Unlisted): https://youtu.be/AH-ZbUXaoGY
 
 
-📝 6. Resume RAG Chatbot
+🔥 6. Resume RAG Chatbot
 
 FastAPI · MiniLM · FAISS · Next.js
 
@@ -149,7 +149,7 @@ Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
 
 YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
-🔍 7. Embedding Search Engine
+🔥 7. Embedding Search Engine
 
 Python · SentenceTransformers · Chroma
 
@@ -190,7 +190,7 @@ Selected examples:
 **Code:** https://github.com/fidelisnguakaaga20/stripe-revenue-copilot 
 ---
 
-## 4 Single Brand Store
+🔥 4 Single Brand Store
 **Live:** https://single-brand-store.vercel.app  
 **Code:** https://github.com/fidelisnguakaaga20/single-brand-store  
 
