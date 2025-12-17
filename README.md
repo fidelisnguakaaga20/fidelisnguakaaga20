@@ -7,7 +7,23 @@ I build **production-style LLM systems** that integrate retrieval, tools, databa
 
 ## 🚀 Featured LLM Project (Flagship)
 
-1. ### 🔥 Multi-Tool AI Agent (RAG + SQL + Tools)
+### 🔥 1. Offline Voice Assistant (NEW)
+**FastAPI · Faster-Whisper · TinyLlama · Tool Routing · TTS**
+
+A **fully offline voice assistant** that listens, reasons, and speaks — no paid APIs.
+
+**What this demonstrates**
+- Offline STT (faster-whisper)  
+- Tool routing (time, calculator) before LLM calls  
+- Local LLM inference (TinyLlama)  
+- Offline TTS (pyttsx3)  
+- End-to-end agent orchestration via FastAPI  
+
+🔗 **Code:** https://github.com/fidelisnguakaaga20/project-8-offline-voice-assistant  
+🎥 **Loom Demo:** https://www.loom.com/share/fbfd050cf2d446a5b98e689b05b31d52  
+🎥 **YouTube (Unlisted):** https://youtu.be/pk8g1JZcru4  
+
+2. ### 🔥 Multi-Tool AI Agent (RAG + SQL + Tools)
 **FastAPI · LangChain · Vector DB · SQL · Local LLMs**
 
 An orchestrated AI agent capable of **tool selection, RAG retrieval, and safe SQL execution**.
@@ -28,7 +44,7 @@ Links
 🎥 YouTube (Unlisted): https://youtu.be/R5fbKYg5QjA
 
 
-🔥 2. SQL Query Agent (NEW — Featured)
+🔥 3. SQL Query Agent (NEW — Featured)
 FastAPI · SQLite · HuggingFace Flan-T5 · Guardrails
 
 Natural language → SQL → validate → run → explain. Built with strong safety checks and deterministic fallbacks.
@@ -51,7 +67,7 @@ Fully local, reproducible
 
 🎥 YouTube (Unlisted): https://youtu.be/2FL6BFIvaJ8
 
-🔥 3. AI Content Generator (NEW — Featured)
+🔥 4. AI Content Generator (NEW — Featured)
 
 FastAPI · HuggingFace Flan-T5 · Next.js · TypeScript
 
@@ -75,7 +91,7 @@ Loom: https://www.loom.com/share/9ed56437a87d49f0bf145f257681e18c
 
 YouTube (Unlisted): https://youtu.be/umITe-IPbZw
 
-🔥 4. Email Reply Assistant
+🔥 5. Email Reply Assistant
 
 FastAPI · Flan-T5 · Embedding Similarity · Next.js
 
@@ -100,7 +116,7 @@ Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
 YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
 
-🔥 5. Customer Support RAG AI (Featured)
+🔥 6. Customer Support RAG AI (Featured)
 
 FastAPI · MiniLM · FAISS · Flan-T5 · Next.js
 
@@ -125,7 +141,7 @@ Loom: https://www.loom.com/share/c75f498b4e834b7ea15ec52e9e56890d
 YouTube (Unlisted): https://youtu.be/AH-ZbUXaoGY
 
 
-🔥 6. Resume RAG Chatbot
+🔥 7. Resume RAG Chatbot
 
 FastAPI · MiniLM · FAISS · Next.js
 
@@ -149,7 +165,7 @@ Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
 
 YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
-🔥 7. Embedding Search Engine
+🔥 8. Embedding Search Engine
 
 Python · SentenceTransformers · Chroma
 
