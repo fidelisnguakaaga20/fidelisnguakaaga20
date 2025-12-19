@@ -7,7 +7,32 @@ I build **production-style LLM systems** that integrate retrieval, tools, databa
 
 ## 🚀 Featured LLM Project (Flagship)
 
-### 🔥 1. Offline Voice Assistant (NEW)
+---
+
+### 🔥 1 Flagship Project — Full AI SaaS Platform captone (Local, Production-Style)
+
+**FastAPI · Next.js · JWT Auth · Chroma · RAG · Tool-Using Agents · Local LLMs**
+
+A full-stack **AI SaaS platform** demonstrating how real-world LLM systems are built — combining **authentication, user-isolated vector stores, semantic search, RAG chat, and deterministic agents** in a single workspace.
+
+Runs **100% locally** (no paid APIs, no cloud dependencies) and is presented via live demos.
+
+**What this demonstrates**
+- SaaS-style **auth + user isolation** (JWT, per-user data)
+- **Vector search** with SentenceTransformers + Chroma (per-user collections)
+- **RAG pipelines** (retrieve → inject context → generate)
+- **Tool-using agent** with deterministic routing before any LLM calls
+- Unified **multi-feature AI workspace UI** (Search · RAG · Agent)
+- Clean FastAPI architecture + Next.js integration
+- Local-first, reproducible LLM engineering
+
+🔗 Code: https://github.com/fidelisnguakaaga20/ai-saas-platform-capstone  
+🎥 Loom Demo: https://www.loom.com/share/d87162195b774dbda47fd3f09f1c3b75  
+🎥 YouTube (Unlisted): https://youtu.be/wNZ4honPCjM  
+
+
+
+### 🔥 2. Offline Voice Assistant (NEW)
 **FastAPI · Faster-Whisper · TinyLlama · Tool Routing · TTS**
 
 A **fully offline voice assistant** that listens, reasons, and speaks — no paid APIs.
@@ -23,7 +48,7 @@ A **fully offline voice assistant** that listens, reasons, and speaks — no pai
 🎥 **Loom Demo:** https://www.loom.com/share/fbfd050cf2d446a5b98e689b05b31d52  
 🎥 **YouTube (Unlisted):** https://youtu.be/pk8g1JZcru4  
 
-🔥 2. LoRA Fine-Tuned LLM (NEW — Fine-tuning)
+🔥 3. LoRA Fine-Tuned LLM (NEW — Fine-tuning)
 Transformers · PEFT (LoRA) · Datasets · Colab T4 GPU · Local Inference
 
 Fine-tuned a small open-source LLM using LoRA on Colab GPU, saved adapter weights, then ran inference locally to compare base vs fine-tuned outputs.
@@ -39,7 +64,7 @@ What this demonstrates
 🎥 Loom Demo: https://www.loom.com/share/e29ba9f16f2d4ecc8fd411e0faac6a07?from_recorder=1&focus_title=1  
 🎥 YouTube (Unlisted): https://youtu.be/3Ec9bsqy4ZQ
 
-3. ### 🔥 Multi-Tool AI Agent (RAG + SQL + Tools)
+4. ### 🔥 Multi-Tool AI Agent (RAG + SQL + Tools)
 **FastAPI · LangChain · Vector DB · SQL · Local LLMs**
 
 An orchestrated AI agent capable of **tool selection, RAG retrieval, and safe SQL execution**.
@@ -60,7 +85,7 @@ Links
 🎥 YouTube (Unlisted): https://youtu.be/R5fbKYg5QjA
 
 
-🔥 4. SQL Query Agent (NEW — Featured)
+🔥 5. SQL Query Agent (NEW — Featured)
 FastAPI · SQLite · HuggingFace Flan-T5 · Guardrails
 
 Natural language → SQL → validate → run → explain. Built with strong safety checks and deterministic fallbacks.
@@ -83,7 +108,7 @@ Fully local, reproducible
 
 🎥 YouTube (Unlisted): https://youtu.be/2FL6BFIvaJ8
 
-🔥 5. AI Content Generator (NEW — Featured)
+🔥 6. AI Content Generator (NEW — Featured)
 
 FastAPI · HuggingFace Flan-T5 · Next.js · TypeScript
 
@@ -107,7 +132,7 @@ Loom: https://www.loom.com/share/9ed56437a87d49f0bf145f257681e18c
 
 YouTube (Unlisted): https://youtu.be/umITe-IPbZw
 
-🔥 6. Email Reply Assistant
+🔥 7. Email Reply Assistant
 
 FastAPI · Flan-T5 · Embedding Similarity · Next.js
 
@@ -132,7 +157,7 @@ Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
 YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
 
-🔥 7. Customer Support RAG AI (Featured)
+🔥 8. Customer Support RAG AI (Featured)
 
 FastAPI · MiniLM · FAISS · Flan-T5 · Next.js
 
@@ -157,7 +182,7 @@ Loom: https://www.loom.com/share/c75f498b4e834b7ea15ec52e9e56890d
 YouTube (Unlisted): https://youtu.be/AH-ZbUXaoGY
 
 
-🔥 8. Resume RAG Chatbot
+🔥9. Resume RAG Chatbot
 
 FastAPI · MiniLM · FAISS · Next.js
 
@@ -181,7 +206,7 @@ Loom: https://www.loom.com/share/1f3929fb37784f8380d606ad99d09b6c
 
 YouTube (Unlisted): https://youtu.be/JeUxBp2Aers
 
-🔥 9. Embedding Search Engine
+🔥 10. Embedding Search Engine
 
 Python · SentenceTransformers · Chroma
 
