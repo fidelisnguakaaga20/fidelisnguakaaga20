@@ -1,139 +1,176 @@
-🌟 Nguakaaga Mvendaga  
-LLM Engineer — RAG · Agents · Tool Calling · Local LLMs · FastAPI
+🌟 Nguakaaga Mvendaga
 
-I build production-style LLM systems that integrate retrieval, tools, databases, and local inference — not prompt demos.
+LLM Engineer (Applied Systems) — RAG · Agents · Tool Calling · FastAPI · Local LLMs
 
----
+I design and build production-style LLM systems with explicit reliability guarantees:
+grounded retrieval, deterministic pipelines, schema validation, safety gates, and human-in-the-loop workflows.
 
-## 🚀 Flagship LLM Systems (Start Here)
+I focus on how LLMs actually ship — not prompt demos.
 
-### 🔥 1. Full AI SaaS Platform — Capstone (Production-Style, Local)
-FastAPI · Next.js · JWT Auth · Chroma · RAG · Tool-Using Agents · Local LLMs
+🚀 Flagship LLM Systems (Start Here)
+🔥 1. Customer Support RAG Bot (Reliability-First)
 
-A full-stack AI SaaS platform demonstrating how real-world LLM systems are built — combining authentication, user-isolated vector stores, semantic search, RAG chat, and deterministic agents in a single workspace.
+FastAPI · FAISS · SentenceTransformers · RAG · JSON Validation
 
-**What this demonstrates**
-- SaaS-style authentication + user isolation (JWT, per-user data)
-- Vector search with SentenceTransformers + Chroma (per-user collections)
-- RAG pipelines (retrieve → inject context → generate)
-- Tool-using agents with deterministic routing before LLM calls
-- Unified multi-feature AI workspace UI (Search · RAG · Agent)
-- Clean FastAPI architecture + Next.js integration
-- 100% local, reproducible, no paid APIs
+A production-style customer support assistant that answers only when evidence exists and returns null instead of hallucinating.
 
-🔗 Code: https://github.com/fidelisnguakaaga20/ai-saas-platform-capstone  
-🎥 Loom Demo: https://www.loom.com/share/d87162195b774dbda47fd3f09f1c3b75  
-🎥 YouTube (Unlisted): https://youtu.be/wNZ4honPCjM  
+What this demonstrates
 
----
+Evidence-only RAG (retrieve → threshold → generate)
 
-### 🔥 2. Offline Voice Assistant
-FastAPI · Faster-Whisper · TinyLlama · Tool Routing · TTS
+Explicit hallucination prevention (confidence gating + null responses)
 
-A fully offline voice assistant that listens, reasons, and speaks — no paid APIs.
+Strict JSON response schema (validated with Pydantic)
 
-**What this demonstrates**
-- Offline speech-to-text (faster-whisper)
-- Tool routing (time, calculator) before LLM calls
-- Local LLM inference (TinyLlama)
-- Offline text-to-speech (pyttsx3)
-- End-to-end agent orchestration via FastAPI
+Deterministic failure handling (no malformed output escapes)
 
-🔗 Code: https://github.com/fidelisnguakaaga20/project-8-offline-voice-assistant  
-🎥 Loom Demo: https://www.loom.com/share/fbfd050cf2d446a5b98e689b05b31d52  
-🎥 YouTube (Unlisted): https://youtu.be/pk8g1JZcru4  
+Local-run, reproducible system
 
----
+🔗 Code: https://github.com/fidelisnguakaaga20/customer-support-rag-bot
 
-### 🔥 3. LoRA Fine-Tuned LLM (Fine-Tuning)
-Transformers · PEFT (LoRA) · Datasets · Colab T4 GPU · Local Inference
+🎥 Loom Demo: https://www.loom.com/share/c9190d1c34054f3b84576e29ec832c67
 
-Fine-tuned a small open-source LLM using LoRA on Colab GPU, exported adapter weights, and ran local inference to compare base vs fine-tuned behavior.
+🎥 YouTube (Unlisted): https://youtu.be/QnsbyYltVDo
 
-**What this demonstrates**
-- Instruction → response dataset creation (train.jsonl)
-- LoRA adapters with frozen base model
-- GPU training on Google Colab (T4)
-- Exported adapter artifacts (adapter_model.safetensors)
-- Local inference comparison (base vs LoRA)
+🔥 2. SQL Query Agent (Deterministic + Safe)
 
-🔗 Code: https://github.com/fidelisnguakaaga20/lora-finetuned-llm  
-🎥 Loom Demo: https://www.loom.com/share/e29ba9f16f2d4ecc8fd411e0faac6a07  
-🎥 YouTube (Unlisted): https://youtu.be/3Ec9bsqy4ZQ  
+FastAPI · SQL · Intent Classification · Safety Gates · JSON Contracts
 
----
+A natural-language-to-SQL system built as a query compiler, not a chatbot.
 
-## 🔬 Additional LLM Systems (Advanced)
+What this demonstrates
 
-- **Multi-Tool AI Agent (RAG + SQL + Tools)**  
-  FastAPI · LangChain · Vector DB · SQL · Local LLMs  
-  🔗 https://github.com/fidelisnguakaaga20/project-7-multi-tool-agent  
-  🎥 https://www.loom.com/share/8c3cc7fedb7b463c9b60a12fec87bde0  
+Intent-first pipeline (READ_ONLY vs WRITE vs AMBIGUOUS)
 
-https://www.loom.com/share/e3a2411a42d94286a27dd4b4659949d2?from_recorder=1&focus_title=1
+Hard SQL safety gates (blocks destructive queries)
 
-🎥 YouTube Demo (Backup – Unlisted): https://youtu.be/c-xbEQ5KEEk
-💻 Source Code: https://github.com/fidelisnguakaaga20/sql-query-agent
+Strict JSON output with validation
 
-- **AI Content Generator** — blogs, tweets, LinkedIn posts, emails  
-  🔗 https://github.com/fidelisnguakaaga20/llm-ai-content-generator  
+Controlled execution + result previews
 
+Deterministic behavior under failure
 
- ** code: https://github.com/fidelisnguakaaga20/email-reply-assistant-llm
+🔗 Code: https://github.com/fidelisnguakaaga20/sql-query-agent
 
-Loom (Full Walkthrough):
+🎥 Loom Demo: https://www.loom.com/share/e3a2411a42d94286a27dd4b4659949d2
 
-https://www.loom.com/share/71132b23d4f448349eaa9f91ef52524a?from_recorder=1&focus_title=1
+🎥 YouTube (Unlisted): https://youtu.be/c-xbEQ5KEEk
 
-YouTube (Unlisted): https://youtu.be/f-vXtWoVBO8
+🔥 3. Email Reply Assistant (Human-in-the-Loop)
 
+FastAPI · RAG · Safety Flags · Draft-Only Workflow
 
+A production-style email drafting assistant that never auto-sends, flags risk, and asks for missing information.
 
-## 🎥 Demo (Loom + YouTube)
-🎥 ** code: https://github.com/fidelisnguakaaga20/customer-support-rag-bot
-- 🎥 **Loom:** https://www.loom.com/share/c9190d1c34054f3b84576e29ec832c67  
-- 🎥 **YouTube (Unlisted):** https://youtu.be/QnsbyYltVDo  
+What this demonstrates
 
+Draft-only policy (human review enforced)
 
+Safety flags + refusal handling
 
-- **Resume RAG Chatbot** — ask questions about a resume  
-  🔗 https://github.com/fidelisnguakaaga20/resume-rag-chatbot  
+RAG-grounded replies with citations
 
-- **Embedding Search Engine** — semantic vector search  
-  🔗 https://github.com/fidelisnguakaaga20/embedding-search-engine  
+Deterministic JSON output + validation gates
 
----
+Real SaaS-ready workflow design
 
-## 🧱 Previous Production SaaS Experience
+🔗 Code: https://github.com/fidelisnguakaaga20/email-reply-assistant-llm
 
-Before specializing in LLM engineering, I built multiple production SaaS platforms involving:
-- Multi-tenant architectures
-- Role-based access control
-- Stripe & Paystack billing
-- Secure dashboards and APIs
+🎥 Loom Demo: https://www.loom.com/share/71132b23d4f448349eaa9f91ef52524a
 
-**Selected projects**
-- **FLEX FOAM — B2B E-Commerce SaaS**  
-  Live: https://flex-foam-b2b.vercel.app  
-  Code: https://github.com/fidelisnguakaaga20/flex-foam-b2b  
+🎥 YouTube (Unlisted): https://youtu.be/f-vXtWoVBO8
 
-- **Multi-Tenant AI SaaS Platform**  
-  Live: https://multi-tenant-ai-saas.vercel.app  
-  Code: https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas  
+🔥 4. Full AI SaaS Platform — Capstone
 
-- **Stripe Revenue Copilot**  
-  Live: https://stripe-revenue-copilot.vercel.app  
-  Code: https://github.com/fidelisnguakaaga20/stripe-revenue-copilot  
+FastAPI · Next.js · JWT · Chroma · RAG · Tool-Using Agents
 
-- **Single Brand Store**  
-  Live: https://single-brand-store.vercel.app  
-  Code: https://github.com/fidelisnguakaaga20/single-brand-store  
+A full-stack AI SaaS platform combining authentication, user-isolated vector stores, RAG chat, and deterministic agents in a single workspace.
 
----
+What this demonstrates
 
-## 📫 Contact
+SaaS authentication + user isolation
 
-Email: fidelisnguakaaga20@gmail.com  
-Phone: 07031128081 / 07011507142  
-LinkedIn: https://www.linkedin.com/in/nguakaaga-mvendaga  
-GitHub: https://github.com/fidelisnguakaaga20  
+Per-user vector collections
+
+RAG + tool routing before LLM calls
+
+Clean backend/frontend integration
+
+Production-style architecture (local-run)
+
+🔗 Code: https://github.com/fidelisnguakaaga20/ai-saas-platform-capstone
+
+🎥 Loom Demo: https://www.loom.com/share/d87162195b774dbda47fd3f09f1c3b75
+
+🎥 YouTube (Unlisted): https://youtu.be/wNZ4honPCjM
+
+🔬 Additional LLM Systems
+
+Offline Voice Assistant — fully local STT → LLM → TTS
+Faster-Whisper · TinyLlama · Tool Routing
+🔗 https://github.com/fidelisnguakaaga20/project-8-offline-voice-assistant
+
+LoRA Fine-Tuned LLM — instruction tuning + local inference
+Transformers · PEFT · Colab GPU
+🔗 https://github.com/fidelisnguakaaga20/lora-finetuned-llm
+
+Multi-Tool AI Agent — RAG + SQL + tools
+🔗 https://github.com/fidelisnguakaaga20/project-7-multi-tool-agent
+
+Resume RAG Chatbot
+🔗 https://github.com/fidelisnguakaaga20/resume-rag-chatbot
+
+Embedding Search Engine — semantic vector search
+🔗 https://github.com/fidelisnguakaaga20/embedding-search-engine
+
+AI Content Generator
+🔗 https://github.com/fidelisnguakaaga20/llm-ai-content-generator
+
+🧱 Prior Production SaaS Experience
+
+Before specializing in LLM systems, I built production SaaS platforms involving:
+
+Multi-tenant architectures
+
+Role-based access control
+
+Stripe & Paystack billing
+
+Secure dashboards and APIs
+
+Selected projects
+
+FLEX FOAM — B2B E-Commerce SaaS
+Live: https://flex-foam-b2b.vercel.app
+
+Code: https://github.com/fidelisnguakaaga20/flex-foam-b2b
+
+Multi-Tenant AI SaaS
+Live: https://multi-tenant-ai-saas.vercel.app
+
+Code: https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas
+
+Stripe Revenue Copilot
+Live: https://stripe-revenue-copilot.vercel.app
+
+Code: https://github.com/fidelisnguakaaga20/stripe-revenue-copilot
+
+🧠 How I Think About LLM Systems
+
+LLMs are unreliable by default
+
+Reliability comes from system design, not prompts
+
+Determinism > cleverness
+
+Null is better than hallucination
+
+Humans stay in the loop where risk exists
+
+📫 Contact
+
+📧 Email: fidelisnguakaaga20@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/nguakaaga-mvendaga
+
+💻 GitHub: https://github.com/fidelisnguakaaga20
