@@ -7,9 +7,10 @@ grounded retrieval, deterministic pipelines, schema validation, safety gates, an
 
 I focus on how LLMs actually ship — not prompt demos.
 
-🚀 Flagship LLM Systems (Start Here)
 
 ---
+🚀 Flagship LLM Systems (Start Here)
+
 🔥 1. Customer Support RAG Bot (Reliability-First)
 
 FastAPI · FAISS · SentenceTransformers · RAG · JSON Validation
@@ -33,6 +34,7 @@ Local-run, reproducible system
 🎥 Loom Demo: https://www.loom.com/share/c9190d1c34054f3b84576e29ec832c67
 
 🎥 YouTube (Unlisted): https://youtu.be/QnsbyYltVDo
+
 
 ---
 🔥 2. SQL Query Agent (Deterministic + Safe)
@@ -59,6 +61,7 @@ Deterministic behavior under failure
 
 🎥 YouTube (Unlisted): https://youtu.be/c-xbEQ5KEEk
 
+
 ---
 🔥 3. Email Reply Assistant (Human-in-the-Loop)
 
@@ -83,6 +86,7 @@ Real SaaS-ready workflow design
 🎥 Loom Demo: https://www.loom.com/share/71132b23d4f448349eaa9f91ef52524a
 
 🎥 YouTube (Unlisted): https://youtu.be/f-vXtWoVBO8
+
 
 ---
 🔥 4. Full AI SaaS Platform — Capstone
@@ -109,12 +113,13 @@ Production-style architecture (local-run)
 
 🎥 YouTube (Unlisted): https://youtu.be/wNZ4honPCjM
 
-🔬 Additional LLM Systems
 
 ---
+🔬 Additional LLM Systems
 Offline Voice Assistant — fully local STT → LLM → TTS
 Faster-Whisper · TinyLlama · Tool Routing
 🔗 https://github.com/fidelisnguakaaga20/project-8-offline-voice-assistant
+
 
 ---
 LoRA Fine-Tuned LLM — instruction tuning + local inference
@@ -134,6 +139,7 @@ AI Content Generator
 🔗 https://github.com/fidelisnguakaaga20/llm-ai-content-generator
 ---
 
+
 🧱 Prior Production SaaS Experience
 
 Before specializing in LLM systems, I built production SaaS platforms involving:
@@ -145,6 +151,8 @@ Role-based access control
 Stripe & Paystack billing
 
 Secure dashboards and APIs
+
+
 ---
 Selected projects
 ---
