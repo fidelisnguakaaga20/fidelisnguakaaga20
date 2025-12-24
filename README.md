@@ -8,6 +8,8 @@ grounded retrieval, deterministic pipelines, schema validation, safety gates, an
 I focus on how LLMs actually ship — not prompt demos.
 
 🚀 Flagship LLM Systems (Start Here)
+
+---
 🔥 1. Customer Support RAG Bot (Reliability-First)
 
 FastAPI · FAISS · SentenceTransformers · RAG · JSON Validation
@@ -32,6 +34,7 @@ Local-run, reproducible system
 
 🎥 YouTube (Unlisted): https://youtu.be/QnsbyYltVDo
 
+---
 🔥 2. SQL Query Agent (Deterministic + Safe)
 
 FastAPI · SQL · Intent Classification · Safety Gates · JSON Contracts
@@ -56,6 +59,7 @@ Deterministic behavior under failure
 
 🎥 YouTube (Unlisted): https://youtu.be/c-xbEQ5KEEk
 
+---
 🔥 3. Email Reply Assistant (Human-in-the-Loop)
 
 FastAPI · RAG · Safety Flags · Draft-Only Workflow
@@ -80,6 +84,7 @@ Real SaaS-ready workflow design
 
 🎥 YouTube (Unlisted): https://youtu.be/f-vXtWoVBO8
 
+---
 🔥 4. Full AI SaaS Platform — Capstone
 
 FastAPI · Next.js · JWT · Chroma · RAG · Tool-Using Agents
@@ -106,25 +111,28 @@ Production-style architecture (local-run)
 
 🔬 Additional LLM Systems
 
+---
 Offline Voice Assistant — fully local STT → LLM → TTS
 Faster-Whisper · TinyLlama · Tool Routing
 🔗 https://github.com/fidelisnguakaaga20/project-8-offline-voice-assistant
 
+---
 LoRA Fine-Tuned LLM — instruction tuning + local inference
 Transformers · PEFT · Colab GPU
 🔗 https://github.com/fidelisnguakaaga20/lora-finetuned-llm
-
+---
 Multi-Tool AI Agent — RAG + SQL + tools
 🔗 https://github.com/fidelisnguakaaga20/project-7-multi-tool-agent
-
+---
 Resume RAG Chatbot
 🔗 https://github.com/fidelisnguakaaga20/resume-rag-chatbot
-
+---
 Embedding Search Engine — semantic vector search
 🔗 https://github.com/fidelisnguakaaga20/embedding-search-engine
-
+---
 AI Content Generator
 🔗 https://github.com/fidelisnguakaaga20/llm-ai-content-generator
+---
 
 🧱 Prior Production SaaS Experience
 
@@ -137,24 +145,24 @@ Role-based access control
 Stripe & Paystack billing
 
 Secure dashboards and APIs
-
+---
 Selected projects
-
+---
 FLEX FOAM — B2B E-Commerce SaaS
 Live: https://flex-foam-b2b.vercel.app
 
 Code: https://github.com/fidelisnguakaaga20/flex-foam-b2b
-
+---
 Multi-Tenant AI SaaS
 Live: https://multi-tenant-ai-saas.vercel.app
 
 Code: https://github.com/fidelisnguakaaga20/multi-tenant-ai-saas
-
+---
 Stripe Revenue Copilot
 Live: https://stripe-revenue-copilot.vercel.app
 
 Code: https://github.com/fidelisnguakaaga20/stripe-revenue-copilot
-
+---
 🧠 How I Think About LLM Systems
 
 LLMs are unreliable by default
