@@ -70,17 +70,31 @@ Fine-tuned a small open-source LLM using LoRA on Colab GPU, exported adapter wei
   🔗 https://github.com/fidelisnguakaaga20/project-7-multi-tool-agent  
   🎥 https://www.loom.com/share/8c3cc7fedb7b463c9b60a12fec87bde0  
 
-- **SQL Query Agent** — NL → SQL → validate → run → explain  
-  🔗 https://github.com/fidelisnguakaaga20/sql-query-agent  
+https://www.loom.com/share/e3a2411a42d94286a27dd4b4659949d2?from_recorder=1&focus_title=1
+
+🎥 YouTube Demo (Backup – Unlisted): https://youtu.be/c-xbEQ5KEEk
+💻 Source Code: https://github.com/fidelisnguakaaga20/sql-query-agent
 
 - **AI Content Generator** — blogs, tweets, LinkedIn posts, emails  
   🔗 https://github.com/fidelisnguakaaga20/llm-ai-content-generator  
 
-- **Email Reply Assistant** — tone-aware email responses  
-  🔗 https://github.com/fidelisnguakaaga20/email-reply-assistant-llm  
 
-- **Customer Support RAG AI** — PDF → chunk → embed → retrieve → generate  
-  🔗 https://github.com/fidelisnguakaaga20/customer-support-rag-bot  
+ ** code: https://github.com/fidelisnguakaaga20/email-reply-assistant-llm
+
+Loom (Full Walkthrough):
+
+https://www.loom.com/share/71132b23d4f448349eaa9f91ef52524a?from_recorder=1&focus_title=1
+
+YouTube (Unlisted): https://youtu.be/f-vXtWoVBO8
+
+
+
+## 🎥 Demo (Loom + YouTube)
+🎥 ** code: https://github.com/fidelisnguakaaga20/customer-support-rag-bot
+- 🎥 **Loom:** https://www.loom.com/share/c9190d1c34054f3b84576e29ec832c67  
+- 🎥 **YouTube (Unlisted):** https://youtu.be/QnsbyYltVDo  
+
+
 
 - **Resume RAG Chatbot** — ask questions about a resume  
   🔗 https://github.com/fidelisnguakaaga20/resume-rag-chatbot  
